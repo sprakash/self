@@ -54807,7 +54807,7 @@ var staticRenderFns = [
                 },
                 [
                   _c("img", {
-                    attrs: { src: "/priyashakti.95c97309.jpg" }
+                    attrs: { src: "/self/priyashakti.95c97309.jpg" }
                   })
                 ]
               ),
@@ -54845,7 +54845,7 @@ var staticRenderFns = [
                 },
                 [
                   _c("img", {
-                    attrs: { src: "/rajeev-typoface.2a8ef396.jpg" }
+                    attrs: { src: "/self/rajeev-typoface.2a8ef396.jpg" }
                   })
                 ]
               ),
@@ -54884,7 +54884,7 @@ var staticRenderFns = [
                 },
                 [
                   _c("img", {
-                    attrs: { src: "/castme.5f133f99.png" }
+                    attrs: { src: "/self/castme.5f133f99.png" }
                   })
                 ]
               ),
