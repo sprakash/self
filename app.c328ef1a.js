@@ -56276,7 +56276,7 @@ var staticRenderFns = [
               [
                 _c("img", {
                   staticClass: "foxlogo",
-                  attrs: { src: "/randomfoxlogo.42505791.png" }
+                  attrs: { src: "/self/randomfoxlogo.42505791.png" }
                 })
               ]
             ),
@@ -56308,7 +56308,7 @@ var staticRenderFns = [
             _c("h3", [_vm._v("Vanilla")]),
             _vm._v(" "),
             _c("img", {
-              attrs: { src: "/vanilla.00c394b1.jpg" }
+              attrs: { src: "/self/vanilla.00c394b1.jpg" }
             }),
             _vm._v(" "),
             _c(
@@ -56336,7 +56336,7 @@ var staticRenderFns = [
             _c("h3", [_vm._v("Funny Faces")]),
             _vm._v(" "),
             _c("img", {
-              attrs: { src: "/funnyfaces.544a1b33.png" }
+              attrs: { src: "/self/funnyfaces.544a1b33.png" }
             }),
             _vm._v(" "),
             _c(
@@ -56376,7 +56376,7 @@ var staticRenderFns = [
             _c("h3", [_vm._v("Three Dates")]),
             _vm._v(" "),
             _c("img", {
-              attrs: { src: "/gotchai.692cc71e.png" }
+              attrs: { src: "/self/gotchai.692cc71e.png" }
             }),
             _vm._v(" "),
             _c(
@@ -56410,7 +56410,7 @@ var staticRenderFns = [
               _c("h4", [_vm._v("augmented reality comic book")]),
               _vm._v(" "),
               _c("img", {
-                attrs: { src: "/priyasmirror.2119e84a.png" }
+                attrs: { src: "/self/priyasmirror.2119e84a.png" }
               }),
               _vm._v(" "),
               _c(
@@ -56438,7 +56438,7 @@ var staticRenderFns = [
               _c("h4", [_vm._v("netflix / amazon video / itunes")]),
               _vm._v(" "),
               _c("img", {
-                attrs: { src: "/karmak.bebe07d1.jpeg" }
+                attrs: { src: "/self/karmak.bebe07d1.jpeg" }
               }),
               _vm._v(" "),
               _c(
@@ -56466,7 +56466,7 @@ var staticRenderFns = [
               _c("h4", [_vm._v("short documentary")]),
               _vm._v(" "),
               _c("img", {
-                attrs: { src: "/vamp.c1fb0973.png" }
+                attrs: { src: "/self/vamp.c1fb0973.png" }
               }),
               _vm._v(" "),
               _c(
