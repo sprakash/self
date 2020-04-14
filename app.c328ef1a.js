@@ -54243,7 +54243,7 @@ var staticRenderFns = [
               },
               [
                 _c("img", {
-                  attrs: { src: "/twitter.f2da1eec.svg" }
+                  attrs: { src: "/self/twitter.f2da1eec.svg" }
                 })
               ]
             )
@@ -54260,7 +54260,7 @@ var staticRenderFns = [
               },
               [
                 _c("img", {
-                  attrs: { src: "/fb.efb36eed.svg" }
+                  attrs: { src: "/self/fb.efb36eed.svg" }
                 })
               ]
             )
@@ -54277,7 +54277,7 @@ var staticRenderFns = [
               },
               [
                 _c("img", {
-                  attrs: { src: "/linkedin.15978cba.svg" }
+                  attrs: { src: "/self/linkedin.15978cba.svg" }
                 })
               ]
             )
@@ -54294,7 +54294,7 @@ var staticRenderFns = [
               },
               [
                 _c("img", {
-                  attrs: { src: "/insta.f364b010.svg" }
+                  attrs: { src: "/self/insta.f364b010.svg" }
                 })
               ]
             )
@@ -54311,7 +54311,7 @@ var staticRenderFns = [
               },
               [
                 _c("img", {
-                  attrs: { src: "/github.373d19b5.svg" }
+                  attrs: { src: "/self/github.373d19b5.svg" }
                 })
               ]
             )
