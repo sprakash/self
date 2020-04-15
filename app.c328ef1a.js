@@ -53577,8 +53577,8 @@ exports.default = _default;
           "li",
           { attrs: { id: "connect" } },
           [
-            _c("router-link", { attrs: { to: { name: "Connect" } } }, [
-              _vm._v("Connect")
+            _c("router-link", { attrs: { to: { name: "Collaborate" } } }, [
+              _vm._v("Collaborate")
             ])
           ],
           1
@@ -53668,8 +53668,8 @@ exports.default = _default;
           "li",
           { attrs: { id: "connect" } },
           [
-            _c("router-link", { attrs: { to: { name: "Connect" } } }, [
-              _vm._v("Connect")
+            _c("router-link", { attrs: { to: { name: "Collaborate" } } }, [
+              _vm._v("Collaborate")
             ])
           ],
           1
@@ -53938,78 +53938,74 @@ exports.default = _default;
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { attrs: { id: "panels" } }, [
-    _c("section", { staticClass: "panel-container" }, [
-      _c(
-        "ul",
-        { staticClass: "panel-area" },
-        _vm._l(_vm.panels, function(singlePanel, index) {
-          return _c(
-            "li",
-            {
-              staticClass: "single-panel",
-              style: {
-                zIndex: _vm.currentOrder[index].zIndex,
-                minHeight: _vm.newHeights
-              },
-              attrs: { id: singlePanel.id }
+    _c(
+      "div",
+      { staticClass: "panel-area" },
+      _vm._l(_vm.panels, function(singlePanel, index) {
+        return _c(
+          "div",
+          {
+            staticClass: "single-panel",
+            style: {
+              zIndex: _vm.currentOrder[index].zIndex,
+              minHeight: _vm.newHeights
             },
-            [
-              _c("div", [
-                _c(
-                  "div",
-                  { staticClass: "panel-content" },
-                  [
-                    _c("h1", { staticClass: "panel-header" }, [
-                      _vm._v(_vm._s(singlePanel.title))
-                    ]),
-                    _vm._v(
-                      "\n\t\t\t\t\t\t" +
-                        _vm._s(singlePanel.content) +
-                        "\n\t\t\n\t\t\t\t\t\t"
-                    ),
-                    _c(
-                      "router-link",
-                      { attrs: { to: { name: singlePanel.title } } },
-                      [_vm._v(" More »")]
-                    )
-                  ],
-                  1
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "button-areas" }, [
-                _c(
-                  "div",
-                  {
-                    staticClass: "prev",
-                    on: {
-                      click: function($event) {
-                        return _vm.previousPanel(singlePanel.title)
-                      }
-                    }
-                  },
-                  [_vm._v("❮")]
+            attrs: { id: singlePanel.id }
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "panel-content" },
+              [
+                _c("h1", { staticClass: "panel-header" }, [
+                  _vm._v(_vm._s(singlePanel.title))
+                ]),
+                _vm._v(
+                  "\n\t\t\t\t\t\t\t" +
+                    _vm._s(singlePanel.content) +
+                    "\n\t\t\t\n\t\t\t\t\t\t\t"
                 ),
-                _vm._v(" "),
                 _c(
-                  "div",
-                  {
-                    staticClass: "next",
-                    on: {
-                      click: function($event) {
-                        return _vm.nextPanel(singlePanel.title)
-                      }
-                    }
-                  },
-                  [_vm._v("❯")]
+                  "router-link",
+                  { attrs: { to: { name: singlePanel.title } } },
+                  [_vm._v(" More »")]
                 )
-              ])
-            ]
-          )
-        }),
-        0
-      )
-    ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "button-areas" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "prev",
+                  on: {
+                    click: function($event) {
+                      return _vm.previousPanel(singlePanel.title)
+                    }
+                  }
+                },
+                [_vm._v("❮")]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "next",
+                  on: {
+                    click: function($event) {
+                      return _vm.nextPanel(singlePanel.title)
+                    }
+                  }
+                },
+                [_vm._v("❯")]
+              )
+            ])
+          ]
+        )
+      }),
+      0
+    )
   ])
 }
 var staticRenderFns = []
@@ -54099,7 +54095,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "longbio" }, [
         _c("span", [
           _vm._v(
-            "Welcome to my website. Here you can learn about my work on stage, film and digital medium as a performer, writer and producer. I believe human beings must dream big and continue to challenge themselves. I aspire next to create my most ambitious work yet : Fontwala inspired by the story of my uncle’s life as an artist, entreprenuer and visionary of Indian letterforms. Read all about Fontwala "
+            "Welcome to my website. Here you can learn about my work on stage, film and digital medium as a performer, writer and producer.  My goal is to create and devise new work.  I aspire next to create my most ambitious work yet : Fontwala inspired by the story of my uncle’s life as an artist, entreprenuer and visionary of Indian letterforms. Read all about Fontwala. "
           ),
           _c(
             "a",
@@ -54243,7 +54239,7 @@ var staticRenderFns = [
               },
               [
                 _c("img", {
-                  attrs: { src: "/self/twitter.f2da1eec.svg" }
+                  attrs: { src: "/twitter.f2da1eec.svg" }
                 })
               ]
             )
@@ -54260,7 +54256,7 @@ var staticRenderFns = [
               },
               [
                 _c("img", {
-                  attrs: { src: "/self/fb.efb36eed.svg" }
+                  attrs: { src: "/fb.efb36eed.svg" }
                 })
               ]
             )
@@ -54277,7 +54273,7 @@ var staticRenderFns = [
               },
               [
                 _c("img", {
-                  attrs: { src: "/self/linkedin.15978cba.svg" }
+                  attrs: { src: "/linkedin.15978cba.svg" }
                 })
               ]
             )
@@ -54294,7 +54290,7 @@ var staticRenderFns = [
               },
               [
                 _c("img", {
-                  attrs: { src: "/self/insta.f364b010.svg" }
+                  attrs: { src: "/insta.f364b010.svg" }
                 })
               ]
             )
@@ -54311,7 +54307,7 @@ var staticRenderFns = [
               },
               [
                 _c("img", {
-                  attrs: { src: "/self/github.373d19b5.svg" }
+                  attrs: { src: "/github.373d19b5.svg" }
                 })
               ]
             )
@@ -54426,14 +54422,11 @@ var _default = {
     };
   },
   mounted: function mounted() {
-    console.log("landing mounted");
-    this.adjustHeight();
+    console.log("landing mounted"); //  this.adjustHeight();
   },
-  created: function created() {
-    window.addEventListener('resize', this.adjustHeight);
+  created: function created() {//  window.addEventListener('resize', this.adjustHeight);
   },
-  destroyed: function destroyed() {
-    window.removeEventListener("resize", this.adjustHeight);
+  destroyed: function destroyed() {// window.removeEventListener("resize", this.adjustHeight);
   },
   methods: {
     adjustHeight: function adjustHeight() {
@@ -54807,7 +54800,7 @@ var staticRenderFns = [
                 },
                 [
                   _c("img", {
-                    attrs: { src: "/self/priyashakti.95c97309.jpg" }
+                    attrs: { src: "/priyashakti.95c97309.jpg" }
                   })
                 ]
               ),
@@ -54845,7 +54838,7 @@ var staticRenderFns = [
                 },
                 [
                   _c("img", {
-                    attrs: { src: "/self/rajeev-typoface.2a8ef396.jpg" }
+                    attrs: { src: "/rajeev-typoface.2a8ef396.jpg" }
                   })
                 ]
               ),
@@ -54884,7 +54877,7 @@ var staticRenderFns = [
                 },
                 [
                   _c("img", {
-                    attrs: { src: "/self/castme.5f133f99.png" }
+                    attrs: { src: "/castme.5f133f99.png" }
                   })
                 ]
               ),
@@ -56276,7 +56269,7 @@ var staticRenderFns = [
               [
                 _c("img", {
                   staticClass: "foxlogo",
-                  attrs: { src: "/self/randomfoxlogo.42505791.png" }
+                  attrs: { src: "/randomfoxlogo.42505791.png" }
                 })
               ]
             ),
@@ -56308,7 +56301,7 @@ var staticRenderFns = [
             _c("h3", [_vm._v("Vanilla")]),
             _vm._v(" "),
             _c("img", {
-              attrs: { src: "/self/vanilla.00c394b1.jpg" }
+              attrs: { src: "/vanilla.00c394b1.jpg" }
             }),
             _vm._v(" "),
             _c(
@@ -56336,7 +56329,7 @@ var staticRenderFns = [
             _c("h3", [_vm._v("Funny Faces")]),
             _vm._v(" "),
             _c("img", {
-              attrs: { src: "/self/funnyfaces.544a1b33.png" }
+              attrs: { src: "/funnyfaces.544a1b33.png" }
             }),
             _vm._v(" "),
             _c(
@@ -56376,7 +56369,7 @@ var staticRenderFns = [
             _c("h3", [_vm._v("Three Dates")]),
             _vm._v(" "),
             _c("img", {
-              attrs: { src: "/self/gotchai.692cc71e.png" }
+              attrs: { src: "/gotchai.692cc71e.png" }
             }),
             _vm._v(" "),
             _c(
@@ -56410,7 +56403,7 @@ var staticRenderFns = [
               _c("h4", [_vm._v("augmented reality comic book")]),
               _vm._v(" "),
               _c("img", {
-                attrs: { src: "/self/priyasmirror.2119e84a.png" }
+                attrs: { src: "/priyasmirror.2119e84a.png" }
               }),
               _vm._v(" "),
               _c(
@@ -56438,7 +56431,7 @@ var staticRenderFns = [
               _c("h4", [_vm._v("netflix / amazon video / itunes")]),
               _vm._v(" "),
               _c("img", {
-                attrs: { src: "/self/karmak.bebe07d1.jpeg" }
+                attrs: { src: "/karmak.bebe07d1.jpeg" }
               }),
               _vm._v(" "),
               _c(
@@ -56466,7 +56459,7 @@ var staticRenderFns = [
               _c("h4", [_vm._v("short documentary")]),
               _vm._v(" "),
               _c("img", {
-                attrs: { src: "/self/vamp.c1fb0973.png" }
+                attrs: { src: "/vamp.c1fb0973.png" }
               }),
               _vm._v(" "),
               _c(
@@ -56529,7 +56522,7 @@ render._withStripped = true
       
       }
     })();
-},{"./Navigation":"components/Navigation.vue","C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\randomfoxlogo.png":[["randomfoxlogo.42505791.png","assets/fake/randomfoxlogo.png"],"assets/fake/randomfoxlogo.png"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\vanilla.jpg":[["vanilla.00c394b1.jpg","assets/fake/vanilla.jpg"],"assets/fake/vanilla.jpg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\funnyfaces.png":[["funnyfaces.544a1b33.png","assets/fake/funnyfaces.png"],"assets/fake/funnyfaces.png"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\gotchai.png":[["gotchai.692cc71e.png","assets/fake/gotchai.png"],"assets/fake/gotchai.png"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\priyasmirror.png":[["priyasmirror.2119e84a.png","assets/fake/priyasmirror.png"],"assets/fake/priyasmirror.png"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\karmak.jpeg":[["karmak.bebe07d1.jpeg","assets/fake/karmak.jpeg"],"assets/fake/karmak.jpeg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\vamp.png":[["vamp.c1fb0973.png","assets/fake/vamp.png"],"assets/fake/vamp.png"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"components/Connect.vue":[function(require,module,exports) {
+},{"./Navigation":"components/Navigation.vue","C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\randomfoxlogo.png":[["randomfoxlogo.42505791.png","assets/fake/randomfoxlogo.png"],"assets/fake/randomfoxlogo.png"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\vanilla.jpg":[["vanilla.00c394b1.jpg","assets/fake/vanilla.jpg"],"assets/fake/vanilla.jpg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\funnyfaces.png":[["funnyfaces.544a1b33.png","assets/fake/funnyfaces.png"],"assets/fake/funnyfaces.png"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\gotchai.png":[["gotchai.692cc71e.png","assets/fake/gotchai.png"],"assets/fake/gotchai.png"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\priyasmirror.png":[["priyasmirror.2119e84a.png","assets/fake/priyasmirror.png"],"assets/fake/priyasmirror.png"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\karmak.jpeg":[["karmak.bebe07d1.jpeg","assets/fake/karmak.jpeg"],"assets/fake/karmak.jpeg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\vamp.png":[["vamp.c1fb0973.png","assets/fake/vamp.png"],"assets/fake/vamp.png"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"components/Collaborate.vue":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -56541,6 +56534,20 @@ var _Navigation = _interopRequireDefault(require("./Navigation"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -56628,14 +56635,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $cf1266 = exports.default || module.exports;
+        var $058ebe = exports.default || module.exports;
       
-      if (typeof $cf1266 === 'function') {
-        $cf1266 = $cf1266.options;
+      if (typeof $058ebe === 'function') {
+        $058ebe = $058ebe.options;
       }
     
         /* template */
-        Object.assign($cf1266, (function () {
+        Object.assign($058ebe, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -56669,22 +56676,94 @@ var staticRenderFns = [
       { staticClass: "slicinItup", attrs: { id: "connect-content" } },
       [
         _c("section", { attrs: { id: "connect-title" } }, [
-          _c("h1", [_vm._v("Connect")]),
+          _c("h1", [_vm._v("Collaborate")]),
           _vm._v(" "),
           _c("span", [
             _vm._v(
-              " \n        \tcheck out the social media channels on which you can connect with me as well as download resumes of my work.\n        "
+              " \n        \tI have collaborated within the disciplines of Theatre, Filmmaking and Web development. Here are a few recent examples of the kind of work in these areas that I take pride in. \n        "
             )
           ])
         ]),
         _vm._v(" "),
         _c("hr"),
         _vm._v(" "),
-        _c("section", { attrs: { id: "connect-sections" } }, [
+        _c("section", { attrs: { id: "collaborate-sections" } }, [
           _c("section", [
-            _c("div", { attrs: { id: "connect-sections-imgs" } }, [
+            _c("div", { attrs: { id: "collaborate" } }, [
+              _c("div", { staticClass: "collab" }, [
+                _c("h2", [_vm._v("Theatre")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "collab-content" }, [
+                  _c("img", {
+                    attrs: { src: "/jfm1.6aef3d74.jpg" }
+                  }),
+                  _vm._v(" "),
+                  _c("img", {
+                    attrs: { src: "/jfm.4354f255.jpg" }
+                  }),
+                  _vm._v(
+                    "\n\t\t\t\t\t\t   I wrote, directed and staged a children's play for an organization: Just For Myself for their annual show for the organization in March 2020. Just For Myself is a not-for-profit organization that educates children of construction workes and house help, helps them get placed in schools and provides for basic nutrition and counseling.  The organization is based in Gurgaon, Haryana. The founder Mrs. Ranjana Joshi entrusted me with writing a play based on the story of how her organization came to be. The play includes music and movement. I wrote the piece and rehearsed with the children in a park of their community for several weekends to present a stage show. They were coached in performance on stage, voice work and scene improvisation.\n\t\t\t\t\t\t"
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "collab" }, [
+                _c("h2", [_vm._v("Code")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "collab-content" }, [
+                  _c("img", {
+                    attrs: { src: "/halApplogo.289e6474.jpg" }
+                  }),
+                  _vm._v(
+                    "\n\t\t\t\t\t\t\tServing as a web developer for Rattapallax's project Hal & Minter. Hal Horowitz is a poet who has had Parkinson's disease over twenty years during this time he has continued to remain a poet. I am creating a web app, HalApp, that allows for people to read Hal’s poems into HTML web voice reactive interface. We want to create this tool to encourage people with Parkinson's disease to read these people that can lead to improvement with their vocalization and speech. [ More information on the project’s website: "
+                  ),
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "http://www.parkinsonspoetry.org",
+                        target: "_blank"
+                      }
+                    },
+                    [_vm._v("www.parkinsonspoetry.org ")]
+                  ),
+                  _vm._v(" ]. \n\t\t\t\t\t\t")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "collab" }, [
+                _c("h2", [_vm._v("Filming / Digital")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "collab-content" }, [
+                  _c("img", {
+                    attrs: { src: "/digitalArtExhibition.631be12b.jpg" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", [
+                    _vm._v(
+                      'Collaborated with noted Indian language font designed Rajeev Prakash to created a digital art exhibition called "Fontwala, Stone to mobile: what remains ?". I worked on the animation, filming and editing of the assets using Adobe Premiere, After Effects and Photoshop.  I shot the content with a Canon T3i Rebel DSLR. Read more about it '
+                    ),
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href:
+                            "https://sprakash.github.io/portfolio/fontwala.html",
+                          target: "_blank"
+                        }
+                      },
+                      [_vm._v("here.")]
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("section", { attrs: { id: "reachout" } }, [
+              _c("h2", [_vm._v("connect")]),
+              _vm._v(" "),
               _c("div", [
-                _c("ul", { staticClass: "connect-lists" }, [
+                _c("ul", { staticClass: "collaborate-lists" }, [
                   _c("li", [
                     _vm._v("Email me : "),
                     _c(
@@ -56801,7 +56880,7 @@ var staticRenderFns = [
                   ]),
                   _vm._v(" "),
                   _c("li", { staticClass: "horiz" }, [
-                    _c("span", [_vm._v("Download resumes :  ")]),
+                    _c("span", [_vm._v("Download :  ")]),
                     _vm._v(" "),
                     _c("ul", [
                       _c("li", [
@@ -56814,7 +56893,7 @@ var staticRenderFns = [
                               target: "_blank"
                             }
                           },
-                          [_vm._v("Performer (Stage and Film)")]
+                          [_vm._v(" 1. Performer (Stage and Film) resume")]
                         )
                       ]),
                       _vm._v(" "),
@@ -56828,7 +56907,7 @@ var staticRenderFns = [
                               target: "_blank"
                             }
                           },
-                          [_vm._v("Front End Dev")]
+                          [_vm._v(" 2. Front End Dev resume")]
                         )
                       ]),
                       _vm._v(" "),
@@ -56842,46 +56921,31 @@ var staticRenderFns = [
                               target: "_blank"
                             }
                           },
-                          [_vm._v("Cumulative")]
+                          [_vm._v("3. Cumulative resume")]
                         )
                       ])
                     ])
                   ])
                 ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "connect-lower" }, [
-                _c("article", [
-                  _vm._v(
-                    "The site has been created by yours truly using Vue framework and The code can be checked out on : "
-                  ),
-                  _c(
-                    "a",
-                    {
-                      attrs: {
-                        href: "https://github.com/sprakash/sh00bz-web-home",
-                        target: "_blank"
-                      }
-                    },
-                    [_vm._v("GitHub")]
-                  ),
-                  _vm._v(".")
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _vm._v("references for development"),
-                  _c(
-                    "a",
-                    {
-                      attrs: {
-                        href:
-                          "https://dev.to/alexmourer/click-event-filtering-on-a-json-rendered-list-in-vuejs-3kpn",
-                        target: "_blank"
-                      }
-                    },
-                    [_c("sup", [_vm._v("(1)")])]
-                  )
-                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "connect-lower" }, [
+              _c("article", [
+                _vm._v(
+                  "This site has been created by yours truly using Vue framework and The code can be checked out on : "
+                ),
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "https://github.com/sprakash/me",
+                      target: "_blank"
+                    }
+                  },
+                  [_vm._v("GitHub")]
+                ),
+                _vm._v(".")
               ])
             ])
           ])
@@ -56909,9 +56973,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$cf1266', $cf1266);
+            api.createRecord('$058ebe', $058ebe);
           } else {
-            api.reload('$cf1266', $cf1266);
+            api.reload('$058ebe', $058ebe);
           }
         }
 
@@ -56922,7 +56986,7 @@ render._withStripped = true
       
       }
     })();
-},{"./Navigation":"components/Navigation.vue","C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\icons\\twitter.svg":[["twitter.f2da1eec.svg","assets/icons/twitter.svg"],"assets/icons/twitter.svg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\icons\\fb.svg":[["fb.efb36eed.svg","assets/icons/fb.svg"],"assets/icons/fb.svg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\icons\\linkedin.svg":[["linkedin.15978cba.svg","assets/icons/linkedin.svg"],"assets/icons/linkedin.svg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\icons\\insta.svg":[["insta.f364b010.svg","assets/icons/insta.svg"],"assets/icons/insta.svg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\icons\\github.svg":[["github.373d19b5.svg","assets/icons/github.svg"],"assets/icons/github.svg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\mandolin.jpg":[["mandolin.254498a3.jpg","assets/fake/mandolin.jpg"],"assets/fake/mandolin.jpg"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"app.js":[function(require,module,exports) {
+},{"./Navigation":"components/Navigation.vue","C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\jfm1.jpg":[["jfm1.6aef3d74.jpg","assets/fake/jfm1.jpg"],"assets/fake/jfm1.jpg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\jfm.jpg":[["jfm.4354f255.jpg","assets/fake/jfm.jpg"],"assets/fake/jfm.jpg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\halApplogo.jpg":[["halApplogo.289e6474.jpg","assets/fake/halApplogo.jpg"],"assets/fake/halApplogo.jpg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\digitalArtExhibition.jpg":[["digitalArtExhibition.631be12b.jpg","assets/fake/digitalArtExhibition.jpg"],"assets/fake/digitalArtExhibition.jpg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\icons\\twitter.svg":[["twitter.f2da1eec.svg","assets/icons/twitter.svg"],"assets/icons/twitter.svg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\icons\\fb.svg":[["fb.efb36eed.svg","assets/icons/fb.svg"],"assets/icons/fb.svg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\icons\\linkedin.svg":[["linkedin.15978cba.svg","assets/icons/linkedin.svg"],"assets/icons/linkedin.svg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\icons\\insta.svg":[["insta.f364b010.svg","assets/icons/insta.svg"],"assets/icons/insta.svg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\icons\\github.svg":[["github.373d19b5.svg","assets/icons/github.svg"],"assets/icons/github.svg"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"app.js":[function(require,module,exports) {
 "use strict";
 
 var _vue = _interopRequireDefault(require("vue"));
@@ -56941,7 +57005,7 @@ var _Theatre = _interopRequireDefault(require("./components/Theatre"));
 
 var _Film = _interopRequireDefault(require("./components/Film"));
 
-var _Connect = _interopRequireDefault(require("./components/Connect"));
+var _Collaborate = _interopRequireDefault(require("./components/Collaborate"));
 
 var _Landing = _interopRequireDefault(require("./components/Landing"));
 
@@ -56984,9 +57048,9 @@ var routes = [{
   component: _Film.default,
   props: true
 }, {
-  path: '/connect',
-  name: 'Connect',
-  component: _Connect.default,
+  path: '/collaborate',
+  name: 'Collaborate',
+  component: _Collaborate.default,
   props: false
 }, {
   path: '/',
@@ -57008,7 +57072,7 @@ new _vue.default({
     return h(_App.default);
   }
 });
-},{"vue":"node_modules/vue/dist/vue.runtime.esm.js","vuetify":"node_modules/vuetify/dist/vuetify.js","vue-mq":"node_modules/vue-mq/dist/vue-mq.es.js","vue-router":"node_modules/vue-router/dist/vue-router.esm.js","./App.vue":"App.vue","./components/Digital":"components/Digital.vue","./components/Theatre":"components/Theatre.vue","./components/Film":"components/Film.vue","./components/Connect":"components/Connect.vue","./components/Landing":"components/Landing.vue"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"vue":"node_modules/vue/dist/vue.runtime.esm.js","vuetify":"node_modules/vuetify/dist/vuetify.js","vue-mq":"node_modules/vue-mq/dist/vue-mq.es.js","vue-router":"node_modules/vue-router/dist/vue-router.esm.js","./App.vue":"App.vue","./components/Digital":"components/Digital.vue","./components/Theatre":"components/Theatre.vue","./components/Film":"components/Film.vue","./components/Collaborate":"components/Collaborate.vue","./components/Landing":"components/Landing.vue"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -57036,7 +57100,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51244" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53840" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
