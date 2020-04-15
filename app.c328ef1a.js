@@ -54938,7 +54938,7 @@ module.exports = {
     "year": "2020",
     "location": "New Delhi, India",
     "blurb": "An opportunity to perform Ibsen in Hindi! Moreover to work with a director of immense caliber and sensitivity. Professor Rajendran taught us so much from understanding Ibsen's text to finding meaning based on the larger context of patriarchy, gender and the condition of the world when this drama was written and why it is still applicable 150 years later. You can read about my experience in the blog link.",
-    "bloglink": "https: shubhraprakash.blogspot.com/2020/02/playing-priest-father-manders-in-ibsens.html",
+    "bloglink": "https://shubhraprakash.blogspot.com/2020/02/playing-priest-father-manders-in-ibsens.html",
     "poster": "/assets/fake/ramleela.jpg",
     "gallerylink": "https://www.instagram.com/p/B-Ogxp_piMh/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/dDMNWoZ.png",
