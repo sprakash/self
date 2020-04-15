@@ -54800,7 +54800,7 @@ var staticRenderFns = [
                 },
                 [
                   _c("img", {
-                    attrs: { src: "/priyashakti.95c97309.jpg" }
+                    attrs: { src: "priyashakti.95c97309.jpg" }
                   })
                 ]
               ),
@@ -54838,7 +54838,7 @@ var staticRenderFns = [
                 },
                 [
                   _c("img", {
-                    attrs: { src: "/rajeev-typoface.2a8ef396.jpg" }
+                    attrs: { src: "rajeev-typoface.2a8ef396.jpg" }
                   })
                 ]
               ),
@@ -56695,11 +56695,11 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "collab-content" }, [
                   _c("img", {
-                    attrs: { src: "/jfm1.6aef3d74.jpg" }
+                    attrs: { src: "jfm1.6aef3d74.jpg" }
                   }),
                   _vm._v(" "),
                   _c("img", {
-                    attrs: { src: "/jfm.4354f255.jpg" }
+                    attrs: { src: "jfm.4354f255.jpg" }
                   }),
                   _vm._v(
                     "\n\t\t\t\t\t\t   I wrote, directed and staged a children's play for an organization: Just For Myself for their annual show for the organization in March 2020. Just For Myself is a not-for-profit organization that educates children of construction workes and house help, helps them get placed in schools and provides for basic nutrition and counseling.  The organization is based in Gurgaon, Haryana. The founder Mrs. Ranjana Joshi entrusted me with writing a play based on the story of how her organization came to be. The play includes music and movement. I wrote the piece and rehearsed with the children in a park of their community for several weekends to present a stage show. They were coached in performance on stage, voice work and scene improvisation.\n\t\t\t\t\t\t"
@@ -56712,7 +56712,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "collab-content" }, [
                   _c("img", {
-                    attrs: { src: "/halApplogo.289e6474.jpg" }
+                    attrs: { src: "halApplogo.289e6474.jpg" }
                   }),
                   _vm._v(
                     "\n\t\t\t\t\t\t\tServing as a web developer for Rattapallax's project Hal & Minter. Hal Horowitz is a poet who has had Parkinson's disease over twenty years during this time he has continued to remain a poet. I am creating a web app, HalApp, that allows for people to read Hal’s poems into HTML web voice reactive interface. We want to create this tool to encourage people with Parkinson's disease to read these people that can lead to improvement with their vocalization and speech. [ More information on the project’s website: "
@@ -56736,7 +56736,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "collab-content" }, [
                   _c("img", {
-                    attrs: { src: "/digitalArtExhibition.631be12b.jpg" }
+                    attrs: { src: "digitalArtExhibition.631be12b.jpg" }
                   }),
                   _vm._v(" "),
                   _c("div", [

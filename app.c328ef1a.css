@@ -301,7 +301,7 @@ li a:hover {
 }
 
 #theatre-area {
-  background-image: url("/theatregif.2aac526b.gif");
+  background-image: url("theatregif.2aac526b.gif");
   background-repeat: no-repeat;
   background-position: -123px 0;
   background-size: cover;
@@ -326,7 +326,7 @@ li a:hover {
 }
 
 #film-area {
-  background-image: url("/vanilla.79896c57.gif");
+  background-image: url("vanilla.79896c57.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -349,7 +349,7 @@ li a:hover {
 }
 
 #digital-area {
-  background-image: url("/fontwala.ebfebebd.gif");
+  background-image: url("fontwala.ebfebebd.gif");
   background-repeat: no-repeat;
   background-size: cover;
 }
