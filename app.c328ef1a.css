@@ -127,7 +127,7 @@ li a:hover {
   padding: 0.85em 0;  
   display: block; 
   border-bottom: 1px solid black; 
-  font-size: 1.25em;  
+  font-size: 2.5em;  
   border-image-source: linear-gradient(270deg, #ff0079, #ffc410, #df420f, #01bffa); 
   border-image-slice: 1;  
 } 
