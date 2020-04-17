@@ -796,7 +796,6 @@ h3[data-v-4520b8] {
   padding: 0.5em 0;
   font-size: 1.75em;
   background-color: black;
-  border: 1px solid #3ff33f;
   font-family: 'Cambria';
   line-height: 1.25em;
 }
@@ -818,7 +817,6 @@ h3 a[data-v-4520b8] {
 }
 h3[data-v-4520b8]:hover {
   cursor: pointer;
-  background-color: #2a1ee9;
 }
 .digital-groups[data-v-4520b8] {
   display: flex;
@@ -1112,7 +1110,6 @@ td[data-v-793753] {
   font-weight: bolder;
   border-radius: 7px;
   letter-spacing: 0.15em;
-  border: 1px solid coral;
   text-decoration: none;
 }
 .show-links span:nth-child(2) a[data-v-793753] {
