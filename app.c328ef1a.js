@@ -56301,7 +56301,7 @@ var staticRenderFns = [
               [
                 _c("img", {
                   staticClass: "foxlogo",
-                  attrs: { src: "/rflogo.f8a67f48.png" }
+                  attrs: { src: "rflogo.f8a67f48.png" }
                 })
               ]
             ),
