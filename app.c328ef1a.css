@@ -4,14 +4,15 @@
 }
 .sm #navigation {
   flex: 2;
-  padding: 0;
+  padding: 3em 0;
   margin: 0;
 }
 .md #navigation {
   flex: 2;
-  padding: 0;
+  padding: 3em 0;
   margin: 0;
 }
+
 
 header {
   flex-grow: 1;
@@ -878,10 +879,12 @@ h3[data-v-4520b8]:hover {
 #digital-content[data-v-4520b8] {
   padding-top: 4em;
 }
-  
-.sm #digital-content[data-v-4520b8] { 
-  padding-top: 0; 
-} 
+.sm #digital-content[data-v-4520b8] {
+  padding-top: 2em;
+}
+.md #digital-content[data-v-4520b8] {
+  padding-top: 8em;
+}
 #digital-title[data-v-4520b8] { 
   padding: 2em 0 0; 
   display: flex;  
@@ -1265,14 +1268,15 @@ header a {
 .sm #content-theatre {  
   margin-top: 0;  
 } 
-#theatre-content {  
-  padding-top: 2em; 
-} 
-.sm #theatre-content {  
-  padding-top: 0; 
+#theatre-content {
+  padding-top: 2em;
+}
+.sm #theatre-content {
+  padding-top: 2em;
 }
 .md #theatre-content {
   align-content: center;
+  padding-top: 4em;
 }
 #theatre-download {
   color: #ff4d0b;
@@ -1494,12 +1498,15 @@ h3[data-v-383e37] {
 .sm .films-watch[data-v-383e37], .md .films-watch[data-v-383e37] {  
   display: block; 
 } 
-#film-content[data-v-383e37] {  
-  padding-top: 8em; 
-} 
-.sm #film-content[data-v-383e37] {  
-  padding-top: 0; 
-} 
+#film-content[data-v-383e37] {
+  padding-top: 8em;
+}
+.sm #film-content[data-v-383e37] {
+  padding-top: 8em;
+}
+.md #film-content[data-v-383e37] {
+  padding-top: 8em;
+}
 #film-tag[data-v-383e37] {  
   display: flex;  
 } 
@@ -1656,7 +1663,10 @@ header a {
   font-weight: 100;
 }
 .sm #connect-content {
-  padding-top: 0;
+  padding-top: 2em;
+}
+.md #connect-content {
+  padding-top: 8em;
 }
 
 .collaborate-lists li { 
