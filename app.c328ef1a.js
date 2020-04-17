@@ -56999,7 +56999,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "collaborate-lower" }, [
               _c("article", [
                 _vm._v(
-                  "This site has been created by yours truly using Vue framework and The code can be checked out on : "
+                  "This site has been created by yours truly using Vue framework and the code can be checked out on : "
                 ),
                 _c(
                   "a",
