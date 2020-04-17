@@ -1133,18 +1133,18 @@ td[data-v-793753] {
   display: flex;
   flex-direction: column;
 }
-.word-cloud[data-v-793753] {  
-  display: flex;  
-  flex-direction: column; 
-  width: 70%; 
-  margin: 2em auto; 
-} 
-.word-cloud span[data-v-793753] { 
-  font-weight: bolder;  
-  letter-spacing: 0.1em;  
-  color: navajowhite; 
-  font-size: 1.5em; 
-  text-align: center; 
+.word-cloud[data-v-793753] {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 2em auto;
+}
+.word-cloud span[data-v-793753] {
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+  color: navajowhite;
+  font-size: 1.5em;
+  text-align: center;
 }
 .word-cloud ul[data-v-793753] {
   padding: 0.5em 1em;
@@ -1155,20 +1155,18 @@ td[data-v-793753] {
   flex-wrap: wrap;
   flex-direction: row;
 }
-. 
-.word-cloud ul li[data-v-793753] {  
-  color: #f899ab; 
-  border: 1px solid #f899ab;  
-  font-weight: bold;  
-  padding: 0.5em 1em; 
-  text-align: center; 
-  font-size: 1.15em;  
-  margin: 0.25em; 
-  cursor: pointer;  
-  letter-spacing: 0.1em;  
-  text-transform: uppercase;  
+.word-cloud ul li[data-v-793753] {
+  color: #f899ab;
+  border: 1px solid #f899ab;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  text-align: center;
+  font-size: 1.15em;
+  margin: 0.25em;
+  cursor: pointer;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
-
 .word-cloud ul li[data-v-793753]:nth-child(1) {
   font-weight: bolder;
   letter-spacing: 0.25em;
