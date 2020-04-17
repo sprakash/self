@@ -8549,99 +8549,99 @@ exports.default = _default;
 },{}],"node_modules/vuetify/dist/vuetify.js":[function(require,module,exports) {
 var define;
 (function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("vue"));
-	else if(typeof define === 'function' && define.amd)
-		define(["vue"], factory);
-	else if(typeof exports === 'object')
-		exports["Vuetify"] = factory(require("vue"));
-	else
-		root["Vuetify"] = factory(root["Vue"]);
+  if(typeof exports === 'object' && typeof module === 'object')
+    module.exports = factory(require("vue"));
+  else if(typeof define === 'function' && define.amd)
+    define(["vue"], factory);
+  else if(typeof exports === 'object')
+    exports["Vuetify"] = factory(require("vue"));
+  else
+    root["Vuetify"] = factory(root["Vue"]);
 })(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_vue__) {
 return /******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
+/******/  // The module cache
+/******/  var installedModules = {};
 /******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
+/******/  // The require function
+/******/  function __webpack_require__(moduleId) {
 /******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
+/******/    // Check if module is in cache
+/******/    if(installedModules[moduleId]) {
+/******/      return installedModules[moduleId].exports;
+/******/    }
+/******/    // Create a new module (and put it into the cache)
+/******/    var module = installedModules[moduleId] = {
+/******/      i: moduleId,
+/******/      l: false,
+/******/      exports: {}
+/******/    };
 /******/
-/******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/    // Execute the module function
+/******/    modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
 /******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
+/******/    // Flag the module as loaded
+/******/    module.l = true;
 /******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = modules;
-/******/
-/******/ 	// expose the module cache
-/******/ 	__webpack_require__.c = installedModules;
-/******/
-/******/ 	// define getter function for harmony exports
-/******/ 	__webpack_require__.d = function(exports, name, getter) {
-/******/ 		if(!__webpack_require__.o(exports, name)) {
-/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
-/******/ 		}
-/******/ 	};
-/******/
-/******/ 	// define __esModule on exports
-/******/ 	__webpack_require__.r = function(exports) {
-/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 		}
-/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 	};
-/******/
-/******/ 	// create a fake namespace object
-/******/ 	// mode & 1: value is a module id, require it
-/******/ 	// mode & 2: merge all properties of value into the ns
-/******/ 	// mode & 4: return value when already ns object
-/******/ 	// mode & 8|1: behave like require
-/******/ 	__webpack_require__.t = function(value, mode) {
-/******/ 		if(mode & 1) value = __webpack_require__(value);
-/******/ 		if(mode & 8) return value;
-/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
-/******/ 		var ns = Object.create(null);
-/******/ 		__webpack_require__.r(ns);
-/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
-/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
-/******/ 		return ns;
-/******/ 	};
-/******/
-/******/ 	// getDefaultExport function for compatibility with non-harmony modules
-/******/ 	__webpack_require__.n = function(module) {
-/******/ 		var getter = module && module.__esModule ?
-/******/ 			function getDefault() { return module['default']; } :
-/******/ 			function getModuleExports() { return module; };
-/******/ 		__webpack_require__.d(getter, 'a', getter);
-/******/ 		return getter;
-/******/ 	};
-/******/
-/******/ 	// Object.prototype.hasOwnProperty.call
-/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
-/******/
-/******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/dist/";
+/******/    // Return the exports of the module
+/******/    return module.exports;
+/******/  }
 /******/
 /******/
-/******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.ts");
+/******/  // expose the modules object (__webpack_modules__)
+/******/  __webpack_require__.m = modules;
+/******/
+/******/  // expose the module cache
+/******/  __webpack_require__.c = installedModules;
+/******/
+/******/  // define getter function for harmony exports
+/******/  __webpack_require__.d = function(exports, name, getter) {
+/******/    if(!__webpack_require__.o(exports, name)) {
+/******/      Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/    }
+/******/  };
+/******/
+/******/  // define __esModule on exports
+/******/  __webpack_require__.r = function(exports) {
+/******/    if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/      Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/    }
+/******/    Object.defineProperty(exports, '__esModule', { value: true });
+/******/  };
+/******/
+/******/  // create a fake namespace object
+/******/  // mode & 1: value is a module id, require it
+/******/  // mode & 2: merge all properties of value into the ns
+/******/  // mode & 4: return value when already ns object
+/******/  // mode & 8|1: behave like require
+/******/  __webpack_require__.t = function(value, mode) {
+/******/    if(mode & 1) value = __webpack_require__(value);
+/******/    if(mode & 8) return value;
+/******/    if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/    var ns = Object.create(null);
+/******/    __webpack_require__.r(ns);
+/******/    Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/    if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/    return ns;
+/******/  };
+/******/
+/******/  // getDefaultExport function for compatibility with non-harmony modules
+/******/  __webpack_require__.n = function(module) {
+/******/    var getter = module && module.__esModule ?
+/******/      function getDefault() { return module['default']; } :
+/******/      function getModuleExports() { return module; };
+/******/    __webpack_require__.d(getter, 'a', getter);
+/******/    return getter;
+/******/  };
+/******/
+/******/  // Object.prototype.hasOwnProperty.call
+/******/  __webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/  // __webpack_public_path__
+/******/  __webpack_require__.p = "/dist/";
+/******/
+/******/
+/******/  // Load entry module and return exports
+/******/  return __webpack_require__(__webpack_require__.s = "./src/index.ts");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -54041,7 +54041,7 @@ render._withStripped = true
       
       }
     })();
-},{"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\theatregif.gif":[["theatregif.2aac526b.gif","assets/fake/theatregif.gif"],"assets/fake/theatregif.gif"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\vanilla.gif":[["vanilla.79896c57.gif","assets/fake/vanilla.gif"],"assets/fake/vanilla.gif"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\fontwala.gif":[["fontwala.ebfebebd.gif","assets/fake/fontwala.gif"],"assets/fake/fontwala.gif"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"components/Bio.vue":[function(require,module,exports) {
+},{"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"components/Bio.vue":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -54095,7 +54095,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "longbio" }, [
         _c("span", [
           _vm._v(
-            "Welcome to my website. Here you can learn about my work on stage, film and digital medium as a performer, writer and producer.  My goal is to create and devise new work.  I aspire next to create my most ambitious work yet : Fontwala inspired by the story of my uncle’s life as an artist, entreprenuer and visionary of Indian letterforms. Read all about Fontwala. "
+            "Welcome to my website. Here you can learn about my work on stage, film and digital medium as a performer, writer and producer.  My goal is to create and devise new work.  Next, I aspire to create my most ambitious work yet : Fontwala inspired by the story of my uncle’s life as an artist, entreprenuer and visionary of Indian letterforms. Read all about Fontwala. "
           ),
           _c(
             "a",
@@ -54422,7 +54422,8 @@ var _default = {
     };
   },
   mounted: function mounted() {
-    console.log("landing mounted"); //  this.adjustHeight();
+    console.log("landing mounted");
+    document.querySelector("#content-fill").style.height = "100%"; //  this.adjustHeight();
   },
   created: function created() {//  window.addEventListener('resize', this.adjustHeight);
   },
@@ -54724,7 +54725,7 @@ exports.default = _default;
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
+  return _c("div", { attrs: { id: "digital-page" } }, [
     _c("header", [_vm._m(0), _vm._v(" "), _c("Navigation")], 1),
     _vm._v(" "),
     _vm._m(1)
@@ -54735,13 +54736,8 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { attrs: { href: "/self" } }, [
-      _c("h1", [
-        _c("span", [_vm._v("S")]),
-        _vm._v("hubhra "),
-        _c("span", [_vm._v("P")]),
-        _vm._v("rakash")
-      ])
+    return _c("a", { attrs: { href: "/" } }, [
+      _c("h1", [_c("span", [_vm._v("शुभ्रा प्रकाश")])])
     ])
   },
   function() {
@@ -54753,19 +54749,29 @@ var staticRenderFns = [
       { staticClass: "slicinItup", attrs: { id: "digital-content" } },
       [
         _c("section", { attrs: { id: "digital-title" } }, [
-          _c("h1", [_vm._v("Digital / Intersect")]),
-          _vm._v(" "),
           _c("span", [
             _vm._v(
-              "\nhere are projects I've worked on that lie at intersection of filmmaking, digital and design, "
+              '\n"a meaningful life is less about finding your ‘real’ self than expanding its boundaries." '
             ),
-            _c("strong", [
-              _vm._v("click on each section to learn more about the project.")
-            ])
+            _c(
+              "a",
+              {
+                attrs: {
+                  href:
+                    "https://aeon.co/ideas/which-is-more-fundamental-processes-or-things",
+                  target: "_blank"
+                }
+              },
+              [_vm._v("(from)")]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _vm._v(
+              "\n \tExpanding my boundaries is central to my undertaking of any creative work, here are projects which gave me an opportunity to bring together my different skills sets. Exploring performance in the context of technology and vice versa are areas of interest for me. You can click on each project below to find more details.\n"
+            )
           ])
         ]),
-        _vm._v(" "),
-        _c("hr"),
         _vm._v(" "),
         _c("section", { attrs: { id: "digital-groups" } }, [
           _c("section", { staticClass: "digital-groups" }, [
@@ -54800,7 +54806,7 @@ var staticRenderFns = [
                 },
                 [
                   _c("img", {
-                    attrs: { src: "priyashakti.95c97309.jpg" }
+                    attrs: { src: "/priyashakti.95c97309.jpg" }
                   })
                 ]
               ),
@@ -54838,7 +54844,7 @@ var staticRenderFns = [
                 },
                 [
                   _c("img", {
-                    attrs: { src: "rajeev-typoface.2a8ef396.jpg" }
+                    attrs: { src: "/rajeev-typoface.2a8ef396.jpg" }
                   })
                 ]
               ),
@@ -54938,9 +54944,9 @@ module.exports = {
     "year": "2020",
     "location": "New Delhi, India",
     "blurb": "An opportunity to perform Ibsen in Hindi! Moreover to work with a director of immense caliber and sensitivity. Professor Rajendran taught us so much from understanding Ibsen's text to finding meaning based on the larger context of patriarchy, gender and the condition of the world when this drama was written and why it is still applicable 150 years later. You can read about my experience in the blog link.",
-    "bloglink": "https://shubhraprakash.blogspot.com/2020/02/playing-priest-father-manders-in-ibsens.html",
+    "bloglink": "https: shubhraprakash.blogspot.com/2020/02/playing-priest-father-manders-in-ibsens.html",
     "poster": "/assets/fake/ramleela.jpg",
-    "gallerylink": "https://www.instagram.com/p/B-Ogxp_piMh/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-Ogxp_piMh/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/dDMNWoZ.png",
     "id": "ghosts"
   }, {
@@ -54955,7 +54961,7 @@ module.exports = {
     "blurb": "Ramleela is a one of a kind yearly celebration of the great epic of Ramayana performed on stage all over India. This particular production was the biggest one of its kind in New Delhi where the average audience numbers soared to 100,000. On the final day of this ten day performance we had the Prime Minister of India Narendra Modi as our chief guest.",
     "poster": "/assets/fake/ramleela.jpg",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-ZvibMp3oy/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-ZvibMp3oy/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/dOi1G8K.jpg",
     "id": "ramleela"
   }, {
@@ -54968,8 +54974,8 @@ module.exports = {
     "year": "2019",
     "location": "Kolkata & Hyderabad, India",
     "blurb": "I enjoyed playing a Manipuri warrior princess with a bow and arrow in this touring production I was a part of in India.I had the privilege of learning the dances from Sohini Roy Chowdhury which brought back memories of learning Bharatnatyam as a child. The play draws from Rabindranath Tagore's Chitrangada, which tells the tale of the warrior princess Chitra's crisis of identity, as she grapples with the expectations that Arjun from the Mahabharata has from her. This production arranged by YPO Kolkata had Shashi Tharoor as the chief guest.",
-    "bloglink": "https://shubhraprakash.blogspot.com/2020/03/what-guruteacher-knows.html",
-    "gallerylink": "https://www.instagram.com/p/B5tiVpSp_Rk/?utm_source=ig_web_button_share_sheet",
+    "bloglink": "https: shubhraprakash.blogspot.com/2020/03/what-guruteacher-knows.html",
+    "gallerylink": "https: www.instagram.com/p/B5tiVpSp_Rk/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/kRpPDPI.jpg",
     "id": "sundays"
   }, {
@@ -54983,7 +54989,7 @@ module.exports = {
     "location": "New Delhi, India",
     "blurb": "I got to devise this piece with our ensemble Little Theatre Group Repertory. The play पन्नीarchy is directed by Piyush Kumar.  We told the story of plastic using docu-drama, physical theatre and collected all the plastic over a period of month that we used in our devising process and in the show.",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-QUm9bJsYh/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-QUm9bJsYh/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/Up0Dhk5.jpg",
     "id": "panniarchy"
   }, {
@@ -54997,7 +55003,7 @@ module.exports = {
     "location": "New Delhi, India",
     "blurb": "Got to perform a nautanki, at the National School of Drama's renowed annual theatre festival : 20th Bharat Rang Mahotsava. I had performed this eleven years prior in SF Bay Area. Performing and singing in India with some of the actual nautanki professionals was unforgettable.",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-B4Bm0J0v6/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-B4Bm0J0v6/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/F2QWSnO.jpg",
     "id": "sultanaNSD"
   }, {
@@ -55011,7 +55017,7 @@ module.exports = {
     "location": "Singapore",
     "blurb": "First time performing in Singapore, Isheeta Ganguly's play with live Rabindra sangeet that takes three of Rabindranath Tagore's heroines and questions their fate as depicted in the popular they belong to.",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-VDmJUJD74/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-VDmJUJD74/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/1DEtqFO.jpg",
     "id": "threeWomen"
   }, {
@@ -55024,8 +55030,8 @@ module.exports = {
     "year": "2018",
     "location": "Brooklyn, New York",
     "blurb": "Anna Lublina led us in creating non-verbal devised piece where I once again got in touch with physical theatre performance. ",
-    "bloglink": "https://shubhraprakash.blogspot.com/2018/11/tech-epiphany-every-breath.html",
-    "gallerylink": "https://www.instagram.com/p/B7VJgG-JalV/?utm_source=ig_web_button_share_sheet",
+    "bloglink": "https: shubhraprakash.blogspot.com/2018/11/tech-epiphany-every-breath.html",
+    "gallerylink": "https: www.instagram.com/p/B7VJgG-JalV/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/WOYdSbU.jpg",
     "id": "babyshka"
   }, {
@@ -55039,7 +55045,7 @@ module.exports = {
     "location": "New York, New York",
     "blurb": "Sang an original composition 'Unbreakable' by Marcus Yi",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-OfKF5pn5j/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-OfKF5pn5j/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/4SLQhi0.png?",
     "id": "reflections"
   }, {
@@ -55052,8 +55058,8 @@ module.exports = {
     "year": "2018",
     "location": "New York, New York",
     "blurb": "Most challenging work I've ever done bringing a story revolving Indian classical music to stage in New York. The journey began in 2015 with my curiousity with Indian classical music and me interviewing my guru Sandip Bhattacharjee. The first rendition was directed by Marcus Yi and second by Sonalee Hardikar with whom I co-wrote the second rendition. We staged 14 shows in Manhattan's Off-Broadway stage Amercian Actor's Theatre.",
-    "bloglink": "https://scroll.in/magazine/880247/the-jewish-refugee-who-composed-airs-theme-is-at-the-heart-of-a-play-about-identity-and-music",
-    "gallerylink": "https://www.instagram.com/p/B-XEO5PJIRa/?utm_source=ig_web_button_share_sheet",
+    "bloglink": "https: scroll.in/magazine/880247/the-jewish-refugee-who-composed-airs-theme-is-at-the-heart-of-a-play-about-identity-and-music",
+    "gallerylink": "https: www.instagram.com/p/B-XEO5PJIRa/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/ElQo2S6.jpg",
     "id": "themusicinmyblood"
   }, {
@@ -55067,7 +55073,7 @@ module.exports = {
     "location": "New York, New York",
     "blurb": "Five Americans were interviewed and performed their stories about being Muslim in America. I got to understudy one of them. This documentary theatre piece was performed in several schools in New York as well along with a larger tour around the country with the main cast.",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-K5m28p-PR/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-K5m28p-PR/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/9WBlA3F.jpg",
     "id": "beyondSacred"
   }, {
@@ -55081,7 +55087,7 @@ module.exports = {
     "location": "New York, New York",
     "blurb": "I got to act and sing bengali songs, which is technically my first language. I also enjoyed contributing to the musical direction of the show by suggesting mashups of Bengali and Western music. We performed 23 shows in Manhattan's Theatre for the New City.",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B9n4_pmJnY1/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B9n4_pmJnY1/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/GwDPKxW.png",
     "id": "chokherbali"
   }, {
@@ -55095,7 +55101,7 @@ module.exports = {
     "location": "New York, New York",
     "blurb": "I had seen Monsoon Wedding the film so being in a workshop reading playing the lead Aditi under the direction of Mira Nair and musical direction of Vishal Bhardwaj in New York City was a dream come true.",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-KTfbLplYb/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-KTfbLplYb/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/aChm0i9.png",
     "id": "mwmreading"
   }, {
@@ -55103,13 +55109,13 @@ module.exports = {
     "type": "Play with Music",
     "role": "Mercutio",
     "director": "Arpita Mukherjee",
-    "playwright": "William Shakespeare",
+    "playwrgiht": "William Shakespeare",
     "company": "Hypokrit Theatre Company",
     "year": "2015",
     "location": "New York, New York",
     "blurb": "Our debut show as a new theare company which is co-founded by me. We were bringing a bollywood aesthetic to Shakespeare's classic. We staged 23 shows in the freezing February cold in Manhattan's Access Theatre with a double cast and had many sold out shows.",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-Jz5ZxJ7q2/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-Jz5ZxJ7q2/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/67GcgJX.jpg",
     "id": "romeoNjuliet"
   }, {
@@ -55123,7 +55129,7 @@ module.exports = {
     "location": "New York, New York",
     "blurb": "Fierce ensemble of ladies gave me an opportunity to join them as they re-imagined and experimented with an all female cast for Taming of the Shrew. We shared roles and swapped them mid-show.",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-FDsSvJ1sZ/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-FDsSvJ1sZ/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/iD0aGlE.jpg",
     "id": "theTamingOfTheShrew"
   }, {
@@ -55137,7 +55143,7 @@ module.exports = {
     "location": "Brooklyn, New York",
     "blurb": "A night of staged readings in Brooklyn of works by South Asian artists.",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-EmJowppu7/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-EmJowppu7/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/tcLf4Ux.jpg",
     "id": "girlAndHerGoddess"
   }, {
@@ -55151,7 +55157,7 @@ module.exports = {
     "location": "New York, New York",
     "blurb": "Enjoyed learning about Singaporean dialect and slang.  First show ever with Marcus Yi who remains a friend and collaborator, because of whom I have found a lot of confidence in creating my own work.",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-EjClzpewF/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-EjClzpewF/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/BycSO8n.jpg",
     "id": "theProcedure"
   }, {
@@ -55165,7 +55171,7 @@ module.exports = {
     "location": "Brooklyn, New York",
     "blurb": "Thankful to Corinne and Chris for creating an opportunity for us to stage Once on this Island. I fell in love with this music.",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-EcNDopM2s/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-EcNDopM2s/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/1RUS4ps.jpg",
     "id": "onceOnThisIsland"
   }, {
@@ -55179,7 +55185,7 @@ module.exports = {
     "location": "New York, New York",
     "blurb": "Young ladies from Barnard, led by the fierce Morgaine approached this powerful work with total committment. We all held each other up, and trusted each other to do this work. Morgaine adopted inclusivity across genders, religion, race, in all aspects of this production, casting, staging, bringing personal stories, etc.  ",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-EVvMqJAXX/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-EVvMqJAXX/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/sNTVNSx.jpg",
     "id": "theVaginaMonologues"
   }, {
@@ -55194,7 +55200,7 @@ module.exports = {
     "location": "Fremont, California",
     "blurb": "As a part of Dynamites I thoroughly enjoyed the music of this show and sang my heart. Who won't sing along to Welcome to the 60s!' ? One of my favorite musicals.",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-CiuTepKuZ/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-CiuTepKuZ/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/F3ska4Q.jpg",
     "id": "hairspray"
   }, {
@@ -55207,8 +55213,8 @@ module.exports = {
     "year": "2011",
     "location": "San Francisco, California",
     "blurb": "One of a kind experience to work with the innovative Rob Melrose and Zonk! a band I have become a fan of.  How often will I get to be a part of Trip-hop musical?",
-    "bloglink": "https://soundcloud.com/harmonymachine/give-me-a-head?in=harmonymachine/sets/ozma-of-oz-cast-recording",
-    "gallerylink": "https://www.instagram.com/p/B-CgFEKJHIH/?utm_source=ig_web_button_share_sheet",
+    "bloglink": "https: soundcloud.com/harmonymachine/give-me-a-head?in=harmonymachine/sets/ozma-of-oz-cast-recording",
+    "gallerylink": "https: www.instagram.com/p/B-CgFEKJHIH/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/5wpc7le.jpg",
     "id": "ozmaOfOz"
   }, {
@@ -55222,7 +55228,7 @@ module.exports = {
     "location": "San Francisco, California",
     "blurb": "A collection of short skits where I played many parts, a talented cast who also were friends.",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-CYWK3JQ5i/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-CYWK3JQ5i/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/XmGAglH.jpg",
     "id": "sheherezadeXI"
   }, {
@@ -55236,7 +55242,7 @@ module.exports = {
     "location": "New York, New York",
     "blurb": "First show in New York, stories of women who stood their ground and achieved goals despite of their difficult circumstances. Forever thankful to Larissa Dzegar for creating the opportunity. ",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-CHHUXJNDp/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-CHHUXJNDp/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/DNhUemh.jpg",
     "id": "leadingLadies"
   }, {
@@ -55250,7 +55256,7 @@ module.exports = {
     "location": "San Francisco, California",
     "blurb": "A show our ensembled loved performing for kids while engaging them in countering bullying.",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-CFOh6JAeo/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-CFOh6JAeo/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/fLSO2kL.jpg",
     "id": "cootieShots"
   }, {
@@ -55264,7 +55270,7 @@ module.exports = {
     "location": "San Francisco, California",
     "blurb": "Received training in South East London accent to portray a vibrant character Leah in one of my favorite theatres in San Francisco. Can we just take a moment and give props to NCTC, Andrew Nance for casting a South Asian actor in a role that has nothing to do with the ethnicity ? THANK YOU!",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B7VXa2RJb-M/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B7VXa2RJb-M/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/9Tl3nxU.png",
     "id": "beautifulThing"
   }, {
@@ -55278,7 +55284,7 @@ module.exports = {
     "location": "East Bay, California",
     "blurb": "Berkeley and SF shows for full houses with audience full of children always got us to do our best. Didn't complain that we got to sign autographs, posters and flyers for the children.",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-CEBDmJUQl/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-CEBDmJUQl/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/UrXa5Nr.jpg",
     "id": "ramonaQuimby"
   }, {
@@ -55292,7 +55298,7 @@ module.exports = {
     "location": "San Jose, California",
     "blurb": "We explored the play with a Mayan theme. There was traditional dance and music and the fairies became Ushmals.",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-CBGgCJ385/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-CBGgCJ385/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/Y0s3v3Y.jpg",
     "id": "midsummer"
   }, {
@@ -55306,7 +55312,7 @@ module.exports = {
     "location": "San Francisco, California",
     "blurb": "It was especially fun to play two villians for an audience full of children. Their reactions could not be tamed. I enjoyed played up the characters to make it entertaining for the children.",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-B9Ve8JwJK/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-B9Ve8JwJK/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/UtGaZTb.jpg",
     "id": "rogueElGato"
   }, {
@@ -55320,7 +55326,7 @@ module.exports = {
     "location": "San Francisco, California",
     "blurb": "We performed the Scottish play in an old episcopalian church on top of Gough St which would get well covered in SF fog by show time, a haunting atmosphere perfect for this tragic tale.",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-B6bUrpOox/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-B6bUrpOox/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/DbKdV4K.png",
     "id": "macbeth"
   }, {
@@ -55333,8 +55339,8 @@ module.exports = {
     "year": "2008",
     "location": "SF Bay Area, California",
     "blurb": "Performing and learning about Indian theatre style of nautanki was an unforgettable experience. To sing in nautanki style in a show in SF bay area was an incredible experience.  We were covered by several publications including a special segment on NPR's PRI-the world.",
-    "bloglink": "https://shubhraprakash.blogspot.com/2010/03/previous-post-sultana-daku.html",
-    "gallerylink": "https://www.instagram.com/p/B-B13NspsN_/?utm_source=ig_web_button_share_sheet",
+    "bloglink": "https: shubhraprakash.blogspot.com/2010/03/previous-post-sultana-daku.html",
+    "gallerylink": "https: www.instagram.com/p/B-B13NspsN_/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/13nbPda.jpg",
     "id": "sultanaDakuNautanki"
   }, {
@@ -55348,7 +55354,7 @@ module.exports = {
     "location": "San Jose, California",
     "blurb": "Got a chance to practice comedy on stage as one of the Pigeon sisters in a classical stage show",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-Bv_gRppZT/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-Bv_gRppZT/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/kpMB8Io.png",
     "id": "theOddCouple"
   }, {
@@ -55362,7 +55368,7 @@ module.exports = {
     "location": "San Jose, California",
     "blurb": "Learned a lot playing Mrs. Webbs in the direction of David Warren Keith. Knowledge of period costumes by our costume department and specific make up and hair styles was a learning experience.",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-Bt-13pAWJ/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-Bt-13pAWJ/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/Xp6rszn.png",
     "id": "ourTown"
   }, {
@@ -55376,7 +55382,7 @@ module.exports = {
     "location": "San Jose, California",
     "blurb": "Debut performance in San Jose State University in a play being adapted from a national bestseller NICKEL AND DIMED, ON (NOT) GETTING BY IN AMERICA by Barbara Ehrenreich.",
     "bloglink": "",
-    "gallerylink": "https://www.instagram.com/p/B-Bq5ZsJylr/?utm_source=ig_web_button_share_sheet",
+    "gallerylink": "https: www.instagram.com/p/B-Bq5ZsJylr/?utm_source=ig_web_button_share_sheet",
     "mainpic": "https://i.imgur.com/KP4mJDP.png",
     "id": "nickelAndDimed"
   }]
@@ -55397,6 +55403,7 @@ var _ = _interopRequireDefault(require("/assets/fake/*.jpg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+//
 //
 //
 //
@@ -55580,6 +55587,31 @@ exports.default = _default;
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { attrs: { id: "shows" } }, [
+    _c("div", { staticClass: "word-cloud" }, [
+      _c("span", [_vm._v("FILTER")]),
+      _vm._v(" "),
+      _c(
+        "ul",
+        _vm._l(_vm.showFilterList, function(entry, index) {
+          return _c(
+            "li",
+            {
+              key: index,
+              class: { showActive: entry == _vm.showFilter },
+              attrs: { item: entry },
+              on: {
+                click: function($event) {
+                  _vm.showFilter = entry
+                }
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\t  " + _vm._s(entry) + "\n\t\t\t\t\t\t")]
+          )
+        }),
+        0
+      )
+    ]),
+    _vm._v(" "),
     _c("section", { staticClass: "show-container" }, [
       _c("div", { staticClass: "show-filter" }, [
         _c(
@@ -55698,38 +55730,7 @@ exports.default = _default;
           1
         ),
         _vm._v(" "),
-        _c("div", { staticClass: "show-side" }, [
-          _c("div", { staticClass: "word-cloud" }, [
-            _c("span", [_vm._v("FILTER")]),
-            _vm._v(" "),
-            _c(
-              "ul",
-              _vm._l(_vm.showFilterList, function(entry, index) {
-                return _c(
-                  "li",
-                  {
-                    key: index,
-                    class: { showActive: entry == _vm.showFilter },
-                    attrs: { item: entry },
-                    on: {
-                      click: function($event) {
-                        _vm.showFilter = entry
-                      }
-                    }
-                  },
-                  [
-                    _vm._v(
-                      "\n\t\t\t\t\t\t\t  " + _vm._s(entry) + "\n\t\t\t\t\t\t"
-                    )
-                  ]
-                )
-              }),
-              0
-            )
-          ]),
-          _vm._v(" "),
-          _vm._m(1)
-        ])
+        _vm._m(1)
       ])
     ])
   ])
@@ -55751,140 +55752,142 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { attrs: { id: "skillset" } }, [
-      _c("div", { attrs: { id: "trainingSkills" } }, [
-        _c("h1", [_vm._v("TRAINING")]),
-        _vm._v(" "),
-        _c("ul", { staticClass: "trainingList" }, [
-          _c("li", [
-            _vm._v(
-              "Documentary Theatre & Teaching Artist Training with Ping Chong & Company. New York."
-            )
+    return _c("div", { staticClass: "show-side" }, [
+      _c("div", { attrs: { id: "skillset" } }, [
+        _c("div", { attrs: { id: "trainingSkills" } }, [
+          _c("h1", [_vm._v("TRAINING")]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "trainingList" }, [
+            _c("li", [
+              _vm._v(
+                "Documentary Theatre & Teaching Artist Training with Ping Chong & Company. New York."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v(
+                "Indian Classical Singing (Kirana Gharana), private coaching w/ Sandip Bhattacharjee. New York & India."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v(
+                "On Camera Scene Study w/ Courtney Burr at Margie Haber Studio, Los Angeles. "
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v(
+                "Film Acting Technique w/ Nancy Berwid at FirstTake Acting Studio, San Francisco. "
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v(
+                "Musical Theatre Summer Conservatory w/ Marc Jacobs, Notre Dame De Namur University, Silicon Vallery."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v(
+                "Voice/Singing for Musical Theatre, Private Coaching w/ Michael Pesce, New York City."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v(
+                "Acting Shakespeare’s Verse, Private coaching w/ Deloss Brown, New York City. \n"
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v(
+                "Classical Commedia D’ell Arte w/ Stanley Allan Sherman at Roving Classical Commedia, New York City.\n\n"
+              )
+            ])
           ]),
           _vm._v(" "),
-          _c("li", [
-            _vm._v(
-              "Indian Classical Singing (Kirana Gharana), private coaching w/ Sandip Bhattacharjee. New York & India."
-            )
+          _c("h1", [_vm._v("LABS / WORKSHOPS")]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "trainingList" }, [
+            _c("li", [
+              _vm._v(
+                "Participant @ Where Film & Anthropology Intersect, Workshop on Documentary Filmmaking with Harjant Gill. New Delhi 2019"
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v("Participant @ "),
+              _c(
+                "a",
+                {
+                  attrs: {
+                    href:
+                      "https://www.tfiny.org/events/detail/immigration_co_lab_nyc",
+                    target: "_blank"
+                  }
+                },
+                [_vm._v("IMMIGRATION CO/LAB | NYC - Tribeca Film Institute")]
+              ),
+              _vm._v(". New York City 2017")
+            ])
           ]),
           _vm._v(" "),
-          _c("li", [
-            _vm._v(
-              "On Camera Scene Study w/ Courtney Burr at Margie Haber Studio, Los Angeles. "
-            )
+          _c("h1", [_vm._v("TALKS / PRESENTATIONS ")]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "trainingList" }, [
+            _c("li", [
+              _c(
+                "a",
+                {
+                  attrs: {
+                    href:
+                      "https://www.docville.be/nl/film/webdox-40-user-engagement",
+                    target: "_blank"
+                  }
+                },
+                [
+                  _vm._v(
+                    "Presenter @ WebDox Conference (User Engagement) Leuven, Belgium 2015"
+                  )
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c(
+                "a",
+                {
+                  attrs: {
+                    href: "http://www.sawcc.org/new-films-2015/",
+                    target: "_blank"
+                  }
+                },
+                [
+                  _vm._v(
+                    "Presenter / Filmmaker @ South Asian Women's Creative New Films 2015"
+                  )
+                ]
+              )
+            ])
           ]),
           _vm._v(" "),
-          _c("li", [
-            _vm._v(
-              "Film Acting Technique w/ Nancy Berwid at FirstTake Acting Studio, San Francisco. "
-            )
-          ]),
+          _c("h1", { staticClass: "skills" }, [_vm._v("SKILLS")]),
           _vm._v(" "),
-          _c("li", [
-            _vm._v(
-              "Musical Theatre Summer Conservatory w/ Marc Jacobs, Notre Dame De Namur University, Silicon Vallery."
-            )
-          ]),
-          _vm._v(" "),
-          _c("li", [
-            _vm._v(
-              "Voice/Singing for Musical Theatre, Private Coaching w/ Michael Pesce, New York City."
-            )
-          ]),
-          _vm._v(" "),
-          _c("li", [
-            _vm._v(
-              "Acting Shakespeare’s Verse, Private coaching w/ Deloss Brown, New York City. \n"
-            )
-          ]),
-          _vm._v(" "),
-          _c("li", [
-            _vm._v(
-              "Classical Commedia D’ell Arte w/ Stanley Allan Sherman at Roving Classical Commedia, New York City.\n\n"
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("h1", [_vm._v("LABS / WORKSHOPS")]),
-        _vm._v(" "),
-        _c("ul", { staticClass: "trainingList" }, [
-          _c("li", [
-            _vm._v(
-              "Participant @ Where Film & Anthropology Intersect, Workshop on Documentary Filmmaking with Harjant Gill. New Delhi 2019"
-            )
-          ]),
-          _vm._v(" "),
-          _c("li", [
-            _vm._v("Participant @ "),
-            _c(
-              "a",
-              {
-                attrs: {
-                  href:
-                    "https://www.tfiny.org/events/detail/immigration_co_lab_nyc",
-                  target: "_blank"
-                }
-              },
-              [_vm._v("IMMIGRATION CO/LAB | NYC - Tribeca Film Institute")]
-            ),
-            _vm._v(". New York City 2017")
-          ])
-        ]),
-        _vm._v(" "),
-        _c("h1", [_vm._v("TALKS / PRESENTATIONS ")]),
-        _vm._v(" "),
-        _c("ul", { staticClass: "trainingList" }, [
-          _c("li", [
-            _c(
-              "a",
-              {
-                attrs: {
-                  href:
-                    "https://www.docville.be/nl/film/webdox-40-user-engagement",
-                  target: "_blank"
-                }
-              },
-              [
-                _vm._v(
-                  "Presenter @ WebDox Conference (User Engagement) Leuven, Belgium 2015"
-                )
-              ]
-            )
-          ]),
-          _vm._v(" "),
-          _c("li", [
-            _c(
-              "a",
-              {
-                attrs: {
-                  href: "http://www.sawcc.org/new-films-2015/",
-                  target: "_blank"
-                }
-              },
-              [
-                _vm._v(
-                  "Presenter / Filmmaker @ South Asian Women's Creative New Films 2015"
-                )
-              ]
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("h1", { staticClass: "skills" }, [_vm._v("SKILLS")]),
-        _vm._v(" "),
-        _c("ul", { staticClass: "trainingList" }, [
-          _c("li", [_vm._v("Open Water Scuba Certification.")]),
-          _vm._v(" "),
-          _c("li", [
-            _vm._v(
-              "Dialects/Accents : South East London, African American, Russian & French."
-            )
-          ]),
-          _vm._v(" "),
-          _c("li", [
-            _vm._v(
-              "Fluent (Speak, read, write and sing) in Hindi. Conversational Bengali and French."
-            )
+          _c("ul", { staticClass: "trainingList" }, [
+            _c("li", [_vm._v("Open Water Scuba Certification.")]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v(
+                "Dialects/Accents : South East London, African American, Russian & French."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v(
+                "Fluent (Speak, read, write and sing) in Hindi. Conversational Bengali and French."
+              )
+            ])
           ])
         ])
       ])
@@ -56014,8 +56017,6 @@ exports.default = _default;
     _c("header", [_vm._m(0), _vm._v(" "), _c("Navigation")], 1),
     _vm._v(" "),
     _c("section", { attrs: { id: "theatre-content" } }, [
-      _vm._m(1),
-      _vm._v(" "),
       _c("div", { attrs: { id: "content-theatre" } }, [
         _c(
           "section",
@@ -56041,27 +56042,8 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { attrs: { href: "/self" } }, [
-      _c("h1", [
-        _c("span", [_vm._v("S")]),
-        _vm._v("hubhra "),
-        _c("span", [_vm._v("P")]),
-        _vm._v("rakash")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("span", { staticClass: "slicinItup" }, [
-      _c("h1", [_vm._v("Theatre")]),
-      _vm._v(
-        "\n    Here you can have a look at my work on stage, read blogs I've written about my experience with each show, check out gallery of photos and media based on shows and get an idea of my training and skill set.             "
-      ),
-      _c("span", { attrs: { id: "theatre-download" } }, [
-        _vm._v("Click to Download Printable Version")
-      ])
+    return _c("a", { attrs: { href: "/" } }, [
+      _c("h1", [_c("span", [_vm._v("शुभ्रा प्रकाश")])])
     ])
   }
 ]
@@ -56199,18 +56181,75 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default = {
   name: 'Film',
   components: {
     Navigation: _Navigation.default
   },
-  created: function created() {
-    this.msg = this.$route.params.isSlideshow;
-  },
   data: function data() {
     return {
       msg: 'Welcome to the film section'
     };
+  },
+  created: function created() {
+    this.msg = this.$route.params.isSlideshow;
+  },
+  mounted: function mounted() {},
+  methods: {// playButtonPlacement : function() {
+    //  //give play button .089 of width and .16 of height; 
+    //  //get top position of image.
+    //  //get left position of image.
+    //  //get width of image.
+    //  //get height of image. 
+    //  //add half of width to left  - width of icon = new left position. 
+    //  //add half of height to top - height of icon = new top position. 
+    //  var imgWidthFirst = document.getElementById('vanillaImg').clientWidth ; 
+    //  // var imgHeight = document.querySelector('.films-look').clientHeight ; 
+    //  console.log('widt HOW CAN THIS BE' + imgWidthFirst);
+    //  var iconWidth = imgWidthFirst * .089; 
+    //  var iconHeight = imgHeight * .16;
+    //  document.querySelector('.playicon').width = iconWidth;
+    //  document.querySelector('.playicon').height = iconHeight;
+    //  console.log("new width " + iconWidth +  " new height " +iconHeight);
+    //  var topPos = document.querySelector('.films-look').offsetTop;
+    //  var leftPos = document.querySelector('.films-look').offsetLeft;
+    //  var newLeft = (imgWidthFirst/2) - iconWidth;
+    //  var newTop = (imgHeight/2) - iconHeight;
+    //  document.querySelector('.playicon').style.top = newTop;
+    //  document.querySelector('.playicon').style.left = newLeft;
+    //  console.log(newTop + " top " + newLeft);
+    //}
   }
 };
 exports.default = _default;
@@ -56226,7 +56265,7 @@ exports.default = _default;
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
+  return _c("div", { attrs: { id: "film-page" } }, [
     _c("header", [_vm._m(0), _vm._v(" "), _c("Navigation")], 1),
     _vm._v(" "),
     _vm._m(1)
@@ -56237,13 +56276,8 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { attrs: { href: "/self" } }, [
-      _c("h1", [
-        _c("span", [_vm._v("S")]),
-        _vm._v("hubhra "),
-        _c("span", [_vm._v("P")]),
-        _vm._v("rakash")
-      ])
+    return _c("a", { attrs: { href: "/" } }, [
+      _c("h1", [_c("span", [_vm._v("शुभ्रा प्रकाश")])])
     ])
   },
   function() {
@@ -56255,8 +56289,6 @@ var staticRenderFns = [
       { staticClass: "slicinItup", attrs: { id: "film-content" } },
       [
         _c("section", { attrs: { id: "film-title" } }, [
-          _c("h1", [_vm._v("Film")]),
-          _vm._v(" "),
           _c("div", { attrs: { id: "film-tag" } }, [
             _c(
               "a",
@@ -56269,7 +56301,7 @@ var staticRenderFns = [
               [
                 _c("img", {
                   staticClass: "foxlogo",
-                  attrs: { src: "randomfoxlogo.42505791.png" }
+                  attrs: { src: "/rflogo.f8a67f48.png" }
                 })
               ]
             ),
@@ -56295,14 +56327,10 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("section", { staticClass: "films-group", attrs: { id: "films" } }, [
-          _c("div", [
+          _c("div", { staticClass: "films-look" }, [
             _c("h2", [_vm._v("Actor & Co-Producer")]),
             _vm._v(" "),
             _c("h3", [_vm._v("Vanilla")]),
-            _vm._v(" "),
-            _c("img", {
-              attrs: { src: "vanilla.00c394b1.jpg" }
-            }),
             _vm._v(" "),
             _c(
               "a",
@@ -56313,7 +56341,15 @@ var staticRenderFns = [
                   target: "_blank"
                 }
               },
-              [_vm._v("[watch here]")]
+              [
+                _c("div", { staticClass: "overlay-parent" }, [
+                  _c("div", { staticClass: "overlay-content" }, [
+                    _c("img", {
+                      attrs: { src: "vanilla.00c394b1.jpg" }
+                    })
+                  ])
+                ])
+              ]
             ),
             _vm._v(" "),
             _c("div", { staticClass: "descript" }, [
@@ -56328,10 +56364,6 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("h3", [_vm._v("Funny Faces")]),
             _vm._v(" "),
-            _c("img", {
-              attrs: { src: "funnyfaces.544a1b33.png" }
-            }),
-            _vm._v(" "),
             _c(
               "a",
               {
@@ -56341,7 +56373,15 @@ var staticRenderFns = [
                   target: "_blank"
                 }
               },
-              [_vm._v("[watch here]")]
+              [
+                _c("div", { staticClass: "overlay-parent" }, [
+                  _c("div", { staticClass: "overlay-content" }, [
+                    _c("img", {
+                      attrs: { src: "funnyfaces.544a1b33.png" }
+                    })
+                  ])
+                ])
+              ]
             ),
             _vm._v(" "),
             _c("div", { staticClass: "descript" }, [
@@ -56368,17 +56408,21 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("h3", [_vm._v("Three Dates")]),
             _vm._v(" "),
-            _c("img", {
-              attrs: { src: "gotchai.692cc71e.png" }
-            }),
-            _vm._v(" "),
             _c(
               "a",
               {
                 staticClass: "films-watch",
                 attrs: { href: "https://vimeo.com/65866310", target: "_blank" }
               },
-              [_vm._v("[watch here]")]
+              [
+                _c("div", { staticClass: "overlay-parent" }, [
+                  _c("div", { staticClass: "overlay-content" }, [
+                    _c("img", {
+                      attrs: { src: "gotchai.692cc71e.png" }
+                    })
+                  ])
+                ])
+              ]
             ),
             _vm._v(" "),
             _c("div", { staticClass: "descript" }, [
@@ -56402,10 +56446,6 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("h4", [_vm._v("augmented reality comic book")]),
               _vm._v(" "),
-              _c("img", {
-                attrs: { src: "priyasmirror.2119e84a.png" }
-              }),
-              _vm._v(" "),
               _c(
                 "a",
                 {
@@ -56415,10 +56455,15 @@ var staticRenderFns = [
                     target: "_blank"
                   }
                 },
-                [_vm._v("[read]")]
+                [
+                  _c("img", {
+                    attrs: { src: "priyasmirror.2119e84a.png" }
+                  })
+                ]
               ),
               _vm._v(" "),
               _c("div", { staticClass: "descript" }, [
+                _c("div", [_vm._v("[click on image to read the comic]")]),
                 _vm._v(
                   "\n\t\t\t\t\t Translated the English comic book into Hindi.  In Priya's mirror, Priya joins forces with a group of acid attack survivors as they fight against the demon-king, Ahankar, and his tyrannical hold on them. Funded by the World Bank, the next edition titled, PRIYA’S MIRROR, focuses on acid attacks and tackles the problem of gender violence around the world. The comic book was created by and features acid attack survivors from New York City, Bogota, and New Delhi. PRIYA’S MIRROR premiered at the New York Film Festival, at Film Society of Lincoln Center, NYC from September 30 to October 16, 2016 and at the Mumbai Comic Con, Oct 22-23, 2016.\n\t\t\t\t"
                 )
@@ -56430,20 +56475,25 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("h4", [_vm._v("netflix / amazon video / itunes")]),
               _vm._v(" "),
-              _c("img", {
-                attrs: { src: "karmak.bebe07d1.jpeg" }
-              }),
-              _vm._v(" "),
               _c(
                 "a",
                 {
                   staticClass: "films-watch",
+                  staticStyle: { width: "100%" },
                   attrs: {
                     href: "https://www.karmakillings.com/",
                     target: "_blank"
                   }
                 },
-                [_vm._v("[watch]")]
+                [
+                  _c("div", { staticClass: "overlay-parent" }, [
+                    _c("div", { staticClass: "overlay-content" }, [
+                      _c("img", {
+                        attrs: { src: "karmak.bebe07d1.jpeg" }
+                      })
+                    ])
+                  ])
+                ]
               ),
               _vm._v(" "),
               _c("div", { staticClass: "descript" }, [
@@ -56458,10 +56508,6 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("h4", [_vm._v("short documentary")]),
               _vm._v(" "),
-              _c("img", {
-                attrs: { src: "vamp.c1fb0973.png" }
-              }),
-              _vm._v(" "),
               _c(
                 "a",
                 {
@@ -56471,7 +56517,15 @@ var staticRenderFns = [
                     target: "_blank"
                   }
                 },
-                [_vm._v("[watch]")]
+                [
+                  _c("div", { staticClass: "overlay-parent" }, [
+                    _c("div", { staticClass: "overlay-content" }, [
+                      _c("img", {
+                        attrs: { src: "vamp.c1fb0973.png" }
+                      })
+                    ])
+                  ])
+                ]
               ),
               _vm._v(" "),
               _c("div", { staticClass: "descript" }, [
@@ -56522,7 +56576,7 @@ render._withStripped = true
       
       }
     })();
-},{"./Navigation":"components/Navigation.vue","C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\randomfoxlogo.png":[["randomfoxlogo.42505791.png","assets/fake/randomfoxlogo.png"],"assets/fake/randomfoxlogo.png"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\vanilla.jpg":[["vanilla.00c394b1.jpg","assets/fake/vanilla.jpg"],"assets/fake/vanilla.jpg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\funnyfaces.png":[["funnyfaces.544a1b33.png","assets/fake/funnyfaces.png"],"assets/fake/funnyfaces.png"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\gotchai.png":[["gotchai.692cc71e.png","assets/fake/gotchai.png"],"assets/fake/gotchai.png"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\priyasmirror.png":[["priyasmirror.2119e84a.png","assets/fake/priyasmirror.png"],"assets/fake/priyasmirror.png"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\karmak.jpeg":[["karmak.bebe07d1.jpeg","assets/fake/karmak.jpeg"],"assets/fake/karmak.jpeg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\vamp.png":[["vamp.c1fb0973.png","assets/fake/vamp.png"],"assets/fake/vamp.png"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"components/Collaborate.vue":[function(require,module,exports) {
+},{"./Navigation":"components/Navigation.vue","C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\rflogo.png":[["rflogo.f8a67f48.png","assets/fake/rflogo.png"],"assets/fake/rflogo.png"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\vanilla.jpg":[["vanilla.00c394b1.jpg","assets/fake/vanilla.jpg"],"assets/fake/vanilla.jpg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\funnyfaces.png":[["funnyfaces.544a1b33.png","assets/fake/funnyfaces.png"],"assets/fake/funnyfaces.png"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\gotchai.png":[["gotchai.692cc71e.png","assets/fake/gotchai.png"],"assets/fake/gotchai.png"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\priyasmirror.png":[["priyasmirror.2119e84a.png","assets/fake/priyasmirror.png"],"assets/fake/priyasmirror.png"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\karmak.jpeg":[["karmak.bebe07d1.jpeg","assets/fake/karmak.jpeg"],"assets/fake/karmak.jpeg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\fake\\vamp.png":[["vamp.c1fb0973.png","assets/fake/vamp.png"],"assets/fake/vamp.png"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js","C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\icons\\play.svg":[["play.3e065c7c.svg","assets/icons/play.svg"],"assets/icons/play.svg"],"C:\\Users\\Shubhra Prakash\\Documents\\me\\assets\\icons\\read.svg":[["read.457a31d8.svg","assets/icons/read.svg"],"assets/icons/read.svg"],"vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"components/Collaborate.vue":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -56534,6 +56588,15 @@ var _Navigation = _interopRequireDefault(require("./Navigation"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -56647,7 +56710,7 @@ exports.default = _default;
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
+  return _c("div", { attrs: { id: "collaborate-page" } }, [
     _c("header", [_vm._m(0), _vm._v(" "), _c("Navigation")], 1),
     _vm._v(" "),
     _vm._m(1)
@@ -56658,13 +56721,8 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { attrs: { href: "/self" } }, [
-      _c("h1", [
-        _c("span", [_vm._v("S")]),
-        _vm._v("hubhra "),
-        _c("span", [_vm._v("P")]),
-        _vm._v("rakash")
-      ])
+    return _c("a", { attrs: { href: "/" } }, [
+      _c("h1", [_c("span", [_vm._v("शुभ्रा प्रकाश")])])
     ])
   },
   function() {
@@ -56676,13 +56734,7 @@ var staticRenderFns = [
       { staticClass: "slicinItup", attrs: { id: "connect-content" } },
       [
         _c("section", { attrs: { id: "connect-title" } }, [
-          _c("h1", [_vm._v("Collaborate")]),
-          _vm._v(" "),
-          _c("span", [
-            _vm._v(
-              " \n        \tI have collaborated within the disciplines of Theatre, Filmmaking and Web development. Here are a few recent examples of the kind of work in these areas that I take pride in. \n        "
-            )
-          ])
+          _c("h1", [_vm._v("Recent Collaborations")])
         ]),
         _vm._v(" "),
         _c("hr"),
@@ -56694,16 +56746,23 @@ var staticRenderFns = [
                 _c("h2", [_vm._v("Theatre")]),
                 _vm._v(" "),
                 _c("div", { staticClass: "collab-content" }, [
-                  _c("img", {
-                    attrs: { src: "jfm1.6aef3d74.jpg" }
-                  }),
+                  _c("div", { staticClass: "collab-images" }, [
+                    _c("img", {
+                      staticClass: "multiple",
+                      attrs: { src: "jfm1.6aef3d74.jpg" }
+                    }),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "multiple",
+                      attrs: { src: "jfm.4354f255.jpg" }
+                    })
+                  ]),
                   _vm._v(" "),
-                  _c("img", {
-                    attrs: { src: "jfm.4354f255.jpg" }
-                  }),
-                  _vm._v(
-                    "\n\t\t\t\t\t\t   I wrote, directed and staged a children's play for an organization: Just For Myself for their annual show for the organization in March 2020. Just For Myself is a not-for-profit organization that educates children of construction workes and house help, helps them get placed in schools and provides for basic nutrition and counseling.  The organization is based in Gurgaon, Haryana. The founder Mrs. Ranjana Joshi entrusted me with writing a play based on the story of how her organization came to be. The play includes music and movement. I wrote the piece and rehearsed with the children in a park of their community for several weekends to present a stage show. They were coached in performance on stage, voice work and scene improvisation.\n\t\t\t\t\t\t"
-                  )
+                  _c("div", { staticClass: "collab-text" }, [
+                    _vm._v(
+                      "\n\t\t\t\t\t\t   \tI wrote, directed and staged a children's play for an organization: Just For Myself for their annual show for the organization in March 2020. Just For Myself is a not-for-profit organization that educates children of construction workes and house help, helps them get placed in schools and provides for basic nutrition and counseling.  The organization is based in Gurgaon, Haryana. The founder Mrs. Ranjana Joshi entrusted me with writing a play based on the story of how her organization came to be. The play includes music and movement. I wrote the piece and rehearsed with the children in a park of their community for several weekends to present a stage show. They were coached in performance on stage, voice work and scene improvisation.\n\t\t\t\t\t\t\t"
+                    )
+                  ])
                 ])
               ]),
               _vm._v(" "),
@@ -56711,23 +56770,28 @@ var staticRenderFns = [
                 _c("h2", [_vm._v("Code")]),
                 _vm._v(" "),
                 _c("div", { staticClass: "collab-content" }, [
-                  _c("img", {
-                    attrs: { src: "halApplogo.289e6474.jpg" }
-                  }),
-                  _vm._v(
-                    "\n\t\t\t\t\t\t\tServing as a web developer for Rattapallax's project Hal & Minter. Hal Horowitz is a poet who has had Parkinson's disease over twenty years during this time he has continued to remain a poet. I am creating a web app, HalApp, that allows for people to read Hal’s poems into HTML web voice reactive interface. We want to create this tool to encourage people with Parkinson's disease to read these people that can lead to improvement with their vocalization and speech. [ More information on the project’s website: "
-                  ),
-                  _c(
-                    "a",
-                    {
-                      attrs: {
-                        href: "http://www.parkinsonspoetry.org",
-                        target: "_blank"
-                      }
-                    },
-                    [_vm._v("www.parkinsonspoetry.org ")]
-                  ),
-                  _vm._v(" ]. \n\t\t\t\t\t\t")
+                  _c("div", { staticClass: "collab-images" }, [
+                    _c("img", {
+                      attrs: { src: "halApplogo.289e6474.jpg" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", [
+                    _vm._v(
+                      "\n\t\t\t\t\t\t\tServing as a web developer for Rattapallax's project Hal & Minter. Hal Horowitz is a poet who has had Parkinson's disease over twenty years during this time he has continued to remain a poet. I am creating a web app, HalApp, that allows for people to read Hal’s poems into HTML web voice reactive interface. We want to create this tool to encourage people with Parkinson's disease to read these people that can lead to improvement with their vocalization and speech. [ More information on the project’s website: "
+                    ),
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href: "http://www.parkinsonspoetry.org",
+                          target: "_blank"
+                        }
+                      },
+                      [_vm._v("www.parkinsonspoetry.org ")]
+                    ),
+                    _vm._v(" ]. \n\t\t\t\t\t\t    ")
+                  ])
                 ])
               ]),
               _vm._v(" "),
@@ -56735,9 +56799,11 @@ var staticRenderFns = [
                 _c("h2", [_vm._v("Filming / Digital")]),
                 _vm._v(" "),
                 _c("div", { staticClass: "collab-content" }, [
-                  _c("img", {
-                    attrs: { src: "digitalArtExhibition.631be12b.jpg" }
-                  }),
+                  _c("div", { staticClass: "collab-images" }, [
+                    _c("img", {
+                      attrs: { src: "digitalArtExhibition.631be12b.jpg" }
+                    })
+                  ]),
                   _vm._v(" "),
                   _c("div", [
                     _vm._v(
@@ -56930,7 +56996,7 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "connect-lower" }, [
+            _c("div", { staticClass: "collaborate-lower" }, [
               _c("article", [
                 _vm._v(
                   "This site has been created by yours truly using Vue framework and The code can be checked out on : "
@@ -57017,9 +57083,9 @@ import App from './App';
 
 
 const vue = new Vue ({
-	el : '#app',
-	router: Router,
-	template : h => h(App)
+  el : '#app',
+  router: Router,
+  template : h => h(App)
 
 });*/
 _vue.default.use(_vueMq.default, {
@@ -57100,7 +57166,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53840" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50364" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
