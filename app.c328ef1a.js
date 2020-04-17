@@ -54736,7 +54736,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { attrs: { href: "/" } }, [
+    return _c("a", { attrs: { href: "/self" } }, [
       _c("h1", [_c("span", [_vm._v("शुभ्रा प्रकाश")])])
     ])
   },
@@ -56042,7 +56042,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { attrs: { href: "/" } }, [
+    return _c("a", { attrs: { href: "/self" } }, [
       _c("h1", [_c("span", [_vm._v("शुभ्रा प्रकाश")])])
     ])
   }
@@ -56276,7 +56276,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { attrs: { href: "/" } }, [
+    return _c("a", { attrs: { href: "/self" } }, [
       _c("h1", [_c("span", [_vm._v("शुभ्रा प्रकाश")])])
     ])
   },
@@ -56721,7 +56721,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { attrs: { href: "/" } }, [
+    return _c("a", { attrs: { href: "/self" } }, [
       _c("h1", [_c("span", [_vm._v("शुभ्रा प्रकाश")])])
     ])
   },
