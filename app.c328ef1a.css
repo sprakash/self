@@ -1621,6 +1621,9 @@ header a {
   flex-direction: row;  
   justify-content: space-between; 
   text-align: justify;  
+  font-size: 1.5em;
+  line-height: 1.85em;
+  font-weight: bold;
 } 
 .md #collaborate .collab-content {  
   flex-direction: column; 
