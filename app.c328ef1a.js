@@ -54806,7 +54806,7 @@ var staticRenderFns = [
                 },
                 [
                   _c("img", {
-                    attrs: { src: "/priyashakti.95c97309.jpg" }
+                    attrs: { src: "priyashakti.95c97309.jpg" }
                   })
                 ]
               ),
@@ -54844,7 +54844,7 @@ var staticRenderFns = [
                 },
                 [
                   _c("img", {
-                    attrs: { src: "/rajeev-typoface.2a8ef396.jpg" }
+                    attrs: { src: "rajeev-typoface.2a8ef396.jpg" }
                   })
                 ]
               ),
