@@ -54947,7 +54947,7 @@ module.exports = {
     "bloglink": "https://shubhraprakash.blogspot.com/2020/02/playing-priest-father-manders-in-ibsens.html",
     "poster": "/assets/fake/ramleela.jpg",
     "gallerylink": "https://www.instagram.com/p/B-Ogxp_piMh/?utm_source=ig_web_button_share_sheet",
-    "mainpic" : "https://i.imgur.com/d4pFusw.jpg",
+    "mainpic" : "https://i.imgur.com/dDMNWoZ.png",
     "id": "ghosts"
   }, {
     "name": "Rameleela (Hindi)",
@@ -54962,7 +54962,7 @@ module.exports = {
     "poster": "/assets/fake/ramleela.jpg",
     "bloglink": "",
     "gallerylink": "https://www.instagram.com/p/B-ZvibMp3oy/?utm_source=ig_web_button_share_sheet",
-    "mainpic": "https://i.imgur.com/dOi1G8K.jpg",
+    "mainpic": "https://i.imgur.com/d4pFusw.jpg",
     "id": "ramleela"
   }, {
     "name": "Sundays w/ Chitra & Chaitali - Tour",
