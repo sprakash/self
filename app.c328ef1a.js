@@ -56864,7 +56864,7 @@ var staticRenderFns = [
                           [
                             _c("img", {
                               attrs: {
-                                src: "twitter.f2da1eec.svg"
+                                src: "/twitter.f2da1eec.svg"
                               }
                             })
                           ]
@@ -56883,7 +56883,7 @@ var staticRenderFns = [
                           [
                             _c("img", {
                               attrs: {
-                                src: "fb.efb36eed.svg"
+                                src: "/fb.efb36eed.svg"
                               }
                             })
                           ]
@@ -56903,7 +56903,7 @@ var staticRenderFns = [
                           [
                             _c("img", {
                               attrs: {
-                                src: "linkedin.15978cba.svg"
+                                src: "/linkedin.15978cba.svg"
                               }
                             })
                           ]
@@ -56922,7 +56922,7 @@ var staticRenderFns = [
                           [
                             _c("img", {
                               attrs: {
-                                src: "insta.f364b010.svg"
+                                src: "/insta.f364b010.svg"
                               }
                             })
                           ]
@@ -56942,14 +56942,13 @@ var staticRenderFns = [
                           [
                             _c("img", {
                               attrs: {
-                                src: "github.373d19b5.svg"
+                                src: "/github.373d19b5.svg"
                               }
                             })
                           ]
                         )
                       ])
-                    ])
-                  ]),
+                    ]),
                     _vm._v(" "),
                     _c("span", [
                       _vm._v("| Subscribe to the blog "),
