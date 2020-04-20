@@ -54947,7 +54947,7 @@ module.exports = {
     "bloglink": "https://shubhraprakash.blogspot.com/2020/02/playing-priest-father-manders-in-ibsens.html",
     "poster": "/assets/fake/ramleela.jpg",
     "gallerylink": "https://www.instagram.com/p/B-Ogxp_piMh/?utm_source=ig_web_button_share_sheet",
-    "mainpic": "https://i.imgur.com/dDMNWoZ.png",
+    "mainpic" : "https://i.imgur.com/d4pFusw.jpg",
     "id": "ghosts"
   }, {
     "name": "Rameleela (Hindi)",
@@ -55614,6 +55614,12 @@ exports.default = _default;
     _vm._v(" "),
     _c("section", { staticClass: "show-container" }, [
       _c("div", { staticClass: "show-filter" }, [
+        _c(
+          "a",
+          { staticClass: "training-link", attrs: { href: "#trainingSkills" } },
+          [_vm._v("see training and skills information")]
+        ),
+        _vm._v(" "),
         _c(
           "div",
           { staticClass: "show-content" },
@@ -56942,6 +56948,21 @@ var staticRenderFns = [
                           ]
                         )
                       ])
+                    ])
+                  ]),
+                    _vm._v(" "),
+                    _c("span", [
+                      _vm._v("| Subscribe to the blog "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://shubhraprakash.blogspot.com/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("here")]
+                      )
                     ])
                   ]),
                   _vm._v(" "),

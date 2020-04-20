@@ -759,7 +759,6 @@ header {
 .mobile a {
   color: white !important;
   font-weight: bold;
-  font-size: 1.85em;
 } 
 #landing .mobile a {  
   margin-top: 2em;  
@@ -979,7 +978,6 @@ td[data-v-793753] {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #ffffffb0;
   padding: 0 0.85em;
   border-radius: 10px;
 }
@@ -1012,14 +1010,11 @@ td[data-v-793753] {
 }
 .show-filter[data-v-793753] {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .sm .show-filter[data-v-793753] {
   flex-direction: column;
   flex-wrap: wrap;
-}
-.show-content[data-v-793753] {
-  width: 100%;
 }
 .show-expanded[data-v-793753] { 
   background-color: lightgrey;  
@@ -1043,13 +1038,16 @@ td[data-v-793753] {
 .md .show-header[data-v-793753] {
   text-align: left;
 }
-.show-name[data-v-793753] {
-  font-size: 1.85em;
-  font-weight: 300;
-  color: #000;
-  word-break: break-all;
-  margin-bottom: 0.25em;
-  line-height: 1.5em;
+.show-name[data-v-793753] { 
+  font-size: 1.5em; 
+  font-weight: 300; 
+  color: navajowhite; 
+  word-break: break-all;  
+  margin-bottom: 0.25em;  
+  line-height: 1.5em; 
+  flex-wrap: wrap;  
+  background-color: #e91e6369;  
+  padding: 0 0.25em;  
 }
 .sm .show-name[data-v-793753] {
   display: block;
@@ -1059,7 +1057,7 @@ td[data-v-793753] {
 .show-year[data-v-793753] {
   font-size: 0.75em;
   margin: 0 !important;
-  color: #1768c7;
+  color: #00bcd4;   
   font-weight: bold;
   display: block;
   padding-bottom: 0.5em;
@@ -1074,7 +1072,7 @@ td[data-v-793753] {
 .show-year[data-v-793753], .show-role[data-v-793753] {
   margin: 0 5em 0 0;
   text-transform: uppercase;
-  font-size: 1.25em;
+  font-size: .85em;
   letter-spacing: 0.05em;
 }
 .sm .show-year[data-v-793753], .sm .show-role[data-v-793753] {
@@ -1121,7 +1119,7 @@ td[data-v-793753] {
 .show-location[data-v-793753] {
   font-size: 0.75em;
   text-transform: uppercase;
-  color: black;
+  color: pink;
   display: block;
 }
 .md .show-location[data-v-793753] {
@@ -1137,7 +1135,7 @@ td[data-v-793753] {
   display: flex;
   flex-direction: column;
   width: 70%;
-  margin: 2em auto;
+  margin: 2em auto 0.5em;
 }
 .word-cloud span[data-v-793753] {
   font-weight: bolder;
@@ -1171,24 +1169,36 @@ td[data-v-793753] {
   font-weight: bolder;
   letter-spacing: 0.25em;
 }
-.v-expansion-panel[data-v-793753] {
-  margin-bottom: 0.5em;
-  background-position: center 10%;
+
+.v-item-group[data-v-793753] {  
+  display: flex;  
+  flex-direction: row;  
+  flex-wrap: wrap;  
+  flex-grow: 1; 
+} 
+.v-expansion-panel[data-v-793753] { 
+  margin: 0.5em;  
+  background-position: center 10%;  
+  border: 1px solid #e5aec1;  
+  flex-grow: 1; 
 }
-.v-expansion-panel button[data-v-793753] {
-  padding: 1em 1.5em;
+
+.v-expansion-panel button[data-v-793753] {  
+  padding: 1em 1.5em; 
   background-color: #03a9f40f;  
-  font-size: 1em;
-  color: #084086;
-  text-align: justify;
-  width: 100%;
-  font-weight: lighter;
-  display: flex;
-  cursor: pointer;
-  justify-content: space-between;
-  background-position: right;
-  background-size: contain;
+  font-size: 1em; 
+  color: #084086; 
+  text-align: justify;  
+  width: 100%;  
+  font-weight: lighter; 
+  display: flex;  
+  cursor: pointer;  
+  justify-content: space-between; 
+  background-position: right; 
+  background-size: contain; 
+  border: 0;  
 }
+
 .v-expansion-panel ul[data-v-793753] {  
   font-size: 1em; 
   padding: 0.5em 1.5em; 
@@ -1201,53 +1211,10 @@ td[data-v-793753] {
 } 
 .showActive[data-v-793753] {  
   border: 2px solid #00bcd4 !important; 
-}
-#cootieShots[data-v-793753] {
-  background-position: center 25%;
-}
-#cootieShots .show-name[data-v-793753] {
-  font-size: 1.5em;
-}
-#nickelAndDimed[data-v-793753],
-#beautifulThing[data-v-793753],
-#leadingLadies[data-v-793753],
-#hairspray[data-v-793753],
-#onceOnThisIsland[data-v-793753],
-#romeoNjuliet[data-v-793753],
-#panniarchy[data-v-793753],
-#sundays[data-v-793753] {
-  background-position: center;
-}
-#theVaginaMonologues[data-v-793753],
-#babyshka[data-v-793753] {
-  background-position: center 40%;
-}
-#macbeth[data-v-793753],
-#themusicinmyblood[data-v-793753] {
-  background-position: center 33%;
-}
-#beyondSacred[data-v-793753] {
-  background-position: center 70%;
-}
-#theOddCouple[data-v-793753],
-#macbeth[data-v-793753],
-#ramonaQuimby[data-v-793753],
-#girlAndHerGoddess[data-v-793753] {
-  background-size: contain !important;
-  background-position: right;
-}
-#theProcedure[data-v-793753] {  
-  background-position: center 52%;  
-} 
-#midsummer[data-v-793753] { 
-  background-position: center 25%;  
-} 
-#ozmaOfOz[data-v-793753] {  
-  background-position: center 20%;  
 } 
 h1 span { 
   font-weight: lighter; 
-} 
+}
 
 header a {
   text-decoration: none;
@@ -1258,8 +1225,8 @@ header a {
   flex-direction: column !important;
 }
 
-.md #grouped {
-  width: 100% !important;
+.md #grouped {  
+  width: 100% !important; 
 } 
 #content-theatre {  
   margin-top: 2em;  
@@ -1268,6 +1235,7 @@ header a {
 .sm #content-theatre {  
   margin-top: 0;  
 } 
+
 #theatre-content {
   padding-top: 2em;
 }
@@ -1350,6 +1318,18 @@ input[type=radio] {
   flex-direction: row;
 }
 
+.training-link {  
+  text-align: center; 
+  letter-spacing: 0.25em; 
+  font-family: Cambria; 
+  color: #5aa8bf; 
+  font-size: 1em; 
+  text-transform: uppercase;  
+  text-decoration: none;  
+  margin-bottom: 1em; 
+} 
+
+
 #trainingSkills {
   margin: 1.25em 2em;
 }
@@ -1388,7 +1368,6 @@ input[type=radio] {
   color: #78B9E8 !important;  
 } 
 
-
 .skillsList {
   line-height: 2em;
   margin-bottom: 2em;
@@ -1411,6 +1390,7 @@ input[type=radio] {
   color: navajowhite; 
   text-align: center; 
 }
+
 .sm #trainingSkills h1, .md #trainingSkills h1,
 .sm .skills h1,
 .md .skills h1 {
@@ -1427,17 +1407,17 @@ header a h1[data-v-383e37] {
 .slicinItup[data-v-383e37] {  
   padding-top: 0em; 
   text-transform: none; 
-}
-a[data-v-383e37] {
-  color: orange !important;
-  font-size: 1em;
-  font-weight: bolder;
-}
-h2[data-v-383e37] {
-  font-size: 1.25em;
-  color: #500606;
-  text-transform: capitalize;
-}
+} 
+a[data-v-383e37] {  
+  color: orange !important; 
+  font-size: 1em; 
+  font-weight: bolder;  
+} 
+h2[data-v-383e37] { 
+  font-size: 1.25em;  
+  color: #500606; 
+  text-transform: capitalize; 
+} 
 h3[data-v-383e37] { 
   color: #64abf3; 
   text-transform: capitalize; 
