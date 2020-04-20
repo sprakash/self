@@ -55639,7 +55639,8 @@ exports.default = _default;
                         style: {
                           backgroundImage: "url(" + entry.mainpic + ")",
                           backgroundRepeat: "no-repeat",
-                          backgroundSize: "cover",
+                          backgroundSize: "contain",
+                          backgroundPosition: "center right",
                           borderRadius: "10px"
                         },
                         attrs: { item: entry, id: entry.id }
