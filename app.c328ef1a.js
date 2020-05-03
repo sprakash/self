@@ -55617,7 +55617,7 @@ exports.default = _default;
         _c(
           "a",
           { staticClass: "training-link", attrs: { href: "#trainingSkills" } },
-          [_vm._v("see training and skills information")]
+          [_vm._v("↓ see training and skills information ↓")]
         ),
         _vm._v(" "),
         _c(
@@ -55626,29 +55626,26 @@ exports.default = _default;
           [
             _vm._m(0),
             _vm._v(" "),
-            _c(
+ _c(
               "v-expansion-panels",
-              { attrs: { accordion: "", multiple: "" } },
+              { attrs: { accordion: "", multiple: "", focusable: "" } },
               _vm._l(_vm.myJson["Theatre"], function(entry, i) {
                 return entry[_vm.sortKey] === _vm.showFilter ||
                   _vm.showFilter === "All"
                   ? _c(
                       "v-expansion-panel",
-                      {
-                        key: i,
-                        style: {
-                          backgroundImage: "url(" + entry.mainpic + ")",
-                          backgroundRepeat: "no-repeat",
-                          backgroundSize: "contain",
-                          backgroundPosition: "center right",
-                          borderRadius: "10px"
-                        },
-                        attrs: { item: entry, id: entry.id }
-                      },
+                      { key: i, attrs: { item: entry, id: entry.id } },
                       [
                         _c("v-expansion-panel-header", [
                           _c("span", { staticClass: "show-info" }, [
-                            _c("span", { staticClass: "show-header" }, [
+                            _c("div", {
+                              staticClass: "show-image",
+                              style: {
+                                backgroundImage: "url(" + entry.mainpic + ")"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "show-header" }, [
                               _c("span", { staticClass: "show-name" }, [
                                 _vm._v(_vm._s(entry.name))
                               ]),
@@ -55791,7 +55788,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("li", [
               _vm._v(
-                "Musical Theatre Summer Conservatory w/ Marc Jacobs, Notre Dame De Namur University, Silicon Vallery."
+                "Musical Theatre Summer Conservatory w/ Marc Jacobs, Notre Dame De Namur University, Silicon Valley."
               )
             ]),
             _vm._v(" "),
