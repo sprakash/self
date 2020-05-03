@@ -977,6 +977,9 @@ td[data-v-793753] {
   background-repeat: repeat-y;
   background-size: contain;
 }
+.show-content[data-v-793753] {
+  background-color: #000000c2;
+}
 .show-image[data-v-793753] {
   background-repeat: no-repeat;
   background-size: contain;
