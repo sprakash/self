@@ -1200,6 +1200,9 @@ td[data-v-793753] {
   border-image-slice: 1;
   flex-grow: 1;
 }
+.v-expansion-panel[data-v-793753]:hover {
+  box-shadow: 0px 0px 20px 0px #e91e63;
+}
 .v-expansion-panel button[data-v-793753] {
   padding: 0.25em 5em;
   background-color: #03a9f40f;
