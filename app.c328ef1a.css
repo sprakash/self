@@ -1196,7 +1196,7 @@ td[data-v-793753] {
   margin: 0.5em 1.5em;
   background-position: center 10%;
   border: 2px solid;
-  border-image-source: linear-gradient(to left, #045844, #090f54);
+  border-image-source: linear-gradient(to left, #40040f, #4e4e00, #045844, #090f54);;
   border-image-slice: 1;
   flex-grow: 1;
 }
