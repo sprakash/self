@@ -54101,7 +54101,7 @@ var staticRenderFns = [
             _vm._v("FONTWALA")
           ]),
           _vm._v(
-            " a multi-disciplinary work inspired by the story of my uncle’s life as an artist, entreprenuer and visionary of Indian letterforms. Read all about Fontwala, "
+            "  a multi-media stage show inspired by the life story of a font designer of Indian letterforms. Read all about Fontwala, "
           ),
           _c(
             "a",
