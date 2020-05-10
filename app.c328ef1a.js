@@ -54728,70 +54728,17 @@ exports.default = _default;
   return _c("div", { attrs: { id: "digital-page" } }, [
     _c("header", [_vm._m(0), _vm._v(" "), _c("Navigation")], 1),
     _vm._v(" "),
-    _vm._m(1)
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { attrs: { href: "/self" } }, [
-      _c("h1", [_c("span", [_vm._v("शुभ्रा प्रकाश")])])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
+    _c(
       "section",
       { staticClass: "slicinItup", attrs: { id: "digital-content" } },
       [
         _c("section", { attrs: { id: "digital-title" } }, [
-          _c("span", [
-            _vm._v(
-              '\n"a meaningful life is less about finding your ‘real’ self than expanding its boundaries." '
-            ),
-            _c(
-              "a",
-              {
-                attrs: {
-                  href:
-                    "https://aeon.co/ideas/which-is-more-fundamental-processes-or-things",
-                  target: "_blank"
-                }
-              },
-              [_vm._v("(from)")]
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", [
-            _vm._v(
-              "\n \tExpanding my boundaries is central to my undertaking of any creative work, here are projects which gave me an opportunity to bring together my different skills sets. Exploring performance in the context of technology and vice versa are areas of interest for me. You can click on each project below to find more details.\n"
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("section", { attrs: { id: "digital-groups" } }, [
-          _c("section", { staticClass: "digital-groups" }, [
-            _c("div", [
-              _c("h3", [
-                _vm._v("Priya's Shakti \t"),
-                _c("span", [
-                  _vm._v("short film and augmented reality comic book")
-                ]),
-                _vm._v(" "),
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href:
-                        "https://sprakash.github.io/portfolio/priyashakti.html",
-                      target: "_blank"
-                    }
-                  },
-                  [_vm._v("[watch]")]
+          _c(
+            "span",
+            [
+              _c("quote", [
+                _vm._v(
+                  '"a meaningful life is less about finding your ‘real’ self than expanding its boundaries."'
                 )
               ]),
               _vm._v(" "),
@@ -54800,104 +54747,165 @@ var staticRenderFns = [
                 {
                   attrs: {
                     href:
-                      "https://sprakash.github.io/portfolio/priyashakti.html",
+                      "https://aeon.co/ideas/which-is-more-fundamental-processes-or-things",
                     target: "_blank"
                   }
                 },
-                [
-                  _c("img", {
-                    attrs: { src: "priyashakti.95c97309.jpg" }
-                  })
-                ]
-              ),
-              _vm._v(" "),
-              _c("p", { staticClass: "artby" }, [
-                _vm._v("Above art by Dan Goldman.")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", [
-              _c("h3", [
-                _vm._v("Fontwala: Stone to mobile, what remains ? "),
-                _c("span", [_vm._v("digital art exhibition")]),
-                _vm._v(" "),
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href:
-                        "https://sprakash.github.io/portfolio/fontwala.html",
-                      target: "_blank"
-                    }
-                  },
-                  [_vm._v("[watch]")]
-                )
-              ]),
-              _vm._v(" "),
-              _c(
-                "a",
-                {
-                  attrs: {
-                    href: "https://sprakash.github.io/portfolio/fontwala.html",
-                    target: "_blank"
-                  }
-                },
-                [
-                  _c("img", {
-                    attrs: { src: "rajeev-typoface.2a8ef396.jpg" }
-                  })
-                ]
-              ),
-              _vm._v(" "),
-              _c("p", { staticClass: "artby" }, [
-                _vm._v("Above art by Rajeev Prakash Khare.")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", [
-              _c("h3", [
-                _vm._v("Cast Me! "),
-                _c("span", [
-                  _vm._v("interactive 'choose your own adventure' short film")
-                ]),
-                _vm._v(" "),
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://video.helloeko.com/v/AK8lqV",
-                      target: "_blank"
-                    }
-                  },
-                  [_vm._v("[play]")]
-                )
-              ]),
-              _vm._v(" "),
-              _c(
-                "a",
-                {
-                  attrs: {
-                    href: "https://video.helloeko.com/v/AK8lqV",
-                    target: "_blank"
-                  }
-                },
-                [
-                  _c("img", {
-                    attrs: { src: "castme.5f133f99.png" }
-                  })
-                ]
-              ),
-              _vm._v(" "),
-              _c("div", { staticClass: "descript" }, [
-                _vm._v(
-                  '\n\t\t\t\t\t\ta "choose your own adventure" style short film created as an entry for The Challenge of Diversity competition by Interlude (now acquired by eKo), Games for Change and Tribeca Film Festival. The viewer has the opportunity to audition 5 actresses for the same role of Kaos, sidekick to the superhero in the superhero movie “Bang & Kaos”. The viewer is a casting director and decides who gets called back. The theme was diversity in casting. I picked actresses of different ethnicities and using Interlude’s (now acquired by eKo) platform created an experience where the user can make a decision to cast the role. Through this work I addressed my own challenges as an actor in the audition room as a person of color.  I developed the concept, served as director, editor and producer.\n\t\t\t\t\t'
-                )
-              ])
-            ])
+                [_vm._v("(from)")]
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("div", [
+            _vm._v(
+              "\n \tExpanding my boundaries is central to my undertaking of any creative work, here are projects which gave me an opportunity to bring together my different skills sets. Exploring performance in the context of technology and vice versa are areas of interest for me. You can click on each project below to find more details.\n"
+            )
           ])
-        ])
+        ]),
+        _vm._v(" "),
+        _vm._m(1)
       ]
     )
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { attrs: { href: "/" } }, [
+      _c("h1", [_c("span", [_vm._v("शुभ्रा प्रकाश")])])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { attrs: { id: "digital-groups" } }, [
+      _c("section", { staticClass: "digital-groups" }, [
+        _c("div", [
+          _c("h3", [
+            _vm._v("Priya's Shakti "),
+            _c("hr", { staticClass: "inner" }),
+            _vm._v(" "),
+            _c("span", [_vm._v("short film and augmented reality comic book")]),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                attrs: {
+                  href: "https://sprakash.github.io/portfolio/priyashakti.html",
+                  target: "_blank"
+                }
+              },
+              [_vm._v("[watch]")]
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "https://sprakash.github.io/portfolio/priyashakti.html",
+                target: "_blank"
+              }
+            },
+            [
+              _c("img", {
+                attrs: { src: "priyashakti.95c97309.jpg" }
+              })
+            ]
+          ),
+          _vm._v(" "),
+          _c("p", { staticClass: "artby" }, [
+            _vm._v("Above art by Dan Goldman.")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", [
+          _c("h3", [
+            _vm._v("Fontwala: Stone to mobile, what remains ? "),
+            _c("hr", { staticClass: "inner" }),
+            _vm._v(" "),
+            _c("span", [_vm._v("digital art exhibition")]),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                attrs: {
+                  href: "https://sprakash.github.io/portfolio/fontwala.html",
+                  target: "_blank"
+                }
+              },
+              [_vm._v("[watch]")]
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "https://sprakash.github.io/portfolio/fontwala.html",
+                target: "_blank"
+              }
+            },
+            [
+              _c("img", {
+                attrs: { src: "rajeev-typoface.2a8ef396.jpg" }
+              })
+            ]
+          ),
+          _vm._v(" "),
+          _c("p", { staticClass: "artby" }, [
+            _vm._v("Above art by Rajeev Prakash Khare.")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", [
+          _c("h3", [
+            _vm._v("Cast Me! "),
+            _c("hr", { staticClass: "inner" }),
+            _vm._v(" "),
+            _c("span", [
+              _vm._v("interactive 'choose your own adventure' short film")
+            ]),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                attrs: {
+                  href: "https://video.helloeko.com/v/AK8lqV",
+                  target: "_blank"
+                }
+              },
+              [_vm._v("[play]")]
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "https://video.helloeko.com/v/AK8lqV",
+                target: "_blank"
+              }
+            },
+            [
+              _c("img", {
+                attrs: { src: "castme.5f133f99.png" }
+              })
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "descript" }, [
+            _vm._v(
+              '\n\t\t\t\t\t\ta "choose your own adventure" style short film created as an entry for The Challenge of Diversity competition by Interlude (now acquired by eKo), Games for Change and Tribeca Film Festival. The viewer has the opportunity to audition 5 actresses for the same role of Kaos, sidekick to the superhero in the superhero movie “Bang & Kaos”. The viewer is a casting director and decides who gets called back. The theme was diversity in casting. I picked actresses of different ethnicities and using Interlude’s (now acquired by eKo) platform created an experience where the user can make a decision to cast the role. Through this work I addressed my own challenges as an actor in the audition room as a person of color.  I developed the concept, served as director, editor and producer.\n\t\t\t\t\t'
+            )
+          ])
+        ])
+      ])
+    ])
   }
 ]
 render._withStripped = true
