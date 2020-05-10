@@ -54091,11 +54091,17 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
+     return _c("div", [
       _c("div", { staticClass: "longbio" }, [
         _c("span", [
           _vm._v(
-            "Welcome to my website. Here you can learn about my work on stage, film and digital medium as a performer, writer and producer.  My goal is to create and devise new work.  Next, I aspire to create my most ambitious work yet : Fontwala inspired by the story of my uncle’s life as an artist, entreprenuer and visionary of Indian letterforms. Read all about Fontwala. "
+            "Welcome to my website. Here you can learn about my work on stage, film and digital medium as a performer, writer and producer.  My goal is to create and devise original work.  Next, I aspire to create my most ambitious work yet : "
+          ),
+          _c("span", { staticStyle: { "font-size": "1.15em" } }, [
+            _vm._v("FONTWALA")
+          ]),
+          _vm._v(
+            " a multi-disciplinary work inspired by the story of my uncle’s life as an artist, entreprenuer and visionary of Indian letterforms. Read all about Fontwala, "
           ),
           _c(
             "a",
@@ -54106,6 +54112,19 @@ var staticRenderFns = [
               }
             },
             [_vm._v("here")]
+          ),
+          _vm._v(
+            ".  This site has been created by yours truly using vuejs, the code can be checked out on "
+          ),
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "https://github.com/sprakash/me",
+                target: "_blank"
+              }
+            },
+            [_vm._v("GitHub")]
           ),
           _vm._v(".")
         ])
