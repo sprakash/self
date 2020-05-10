@@ -56745,7 +56745,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { attrs: { href: "/self" } }, [
+    return _c("a", { attrs: { href: "/" } }, [
       _c("h1", [_c("span", [_vm._v("शुभ्रा प्रकाश")])])
     ])
   },
@@ -56761,7 +56761,7 @@ var staticRenderFns = [
           _c("h1", [_vm._v("Recent Collaborations")])
         ]),
         _vm._v(" "),
-        _c("hr"),
+        _c("hr", { staticClass: "inner" }),
         _vm._v(" "),
         _c("section", { attrs: { id: "collaborate-sections" } }, [
           _c("section", [
@@ -56784,11 +56784,13 @@ var staticRenderFns = [
                   _vm._v(" "),
                   _c("div", { staticClass: "collab-text" }, [
                     _vm._v(
-                      "\n\t\t\t\t\t\t   \tI wrote, directed and staged a children's play for an organization: Just For Myself for their annual show for the organization in March 2020. Just For Myself is a not-for-profit organization that educates children of construction workes and house help, helps them get placed in schools and provides for basic nutrition and counseling.  The organization is based in Gurgaon, Haryana. The founder Mrs. Ranjana Joshi entrusted me with writing a play based on the story of how her organization came to be. The play includes music and movement. I wrote the piece and rehearsed with the children in a park of their community for several weekends to present a stage show. They were coached in performance on stage, voice work and scene improvisation.\n\t\t\t\t\t\t\t"
+                      "\n\t\t\t\t\t\t   \tI wrote, directed and staged a children's play for an organization called Just For Myself in March 2020. Just For Myself is a not-for-profit organization that educates children of construction workes and house help, helps them get placed in schools and provides for basic nutrition and counseling.  The organization is based in Gurgaon, Haryana. The founder Mrs. Ranjana Joshi entrusted me with writing a play based on the story of how her organization came to be. The play includes music and movement. I wrote the piece and rehearsed with the children in a park of their community for several weekends to present a stage show. They were coached in performance on stage, voice work and scene improvisation.\n\t\t\t\t\t\t\t"
                     )
                   ])
                 ])
               ]),
+              _vm._v(" "),
+              _c("hr", { staticClass: "inner" }),
               _vm._v(" "),
               _c("div", { staticClass: "collab" }, [
                 _c("h2", [_vm._v("Code")]),
@@ -56819,6 +56821,8 @@ var staticRenderFns = [
                 ])
               ]),
               _vm._v(" "),
+              _c("hr", { staticClass: "inner" }),
+              _vm._v(" "),
               _c("div", { staticClass: "collab" }, [
                 _c("h2", [_vm._v("Filming / Digital")]),
                 _vm._v(" "),
@@ -56848,6 +56852,8 @@ var staticRenderFns = [
                 ])
               ])
             ]),
+            _vm._v(" "),
+            _c("hr", { staticClass: "inner" }),
             _vm._v(" "),
             _c("section", { attrs: { id: "reachout" } }, [
               _c("h2", [_vm._v("connect")]),
