@@ -1564,7 +1564,7 @@ h3[data-v-383e37] {
   border: 0 !important;
 }
 .overlay-content[data-v-383e37]:after {
-  background-image: url("/play.3e065c7c.svg");
+  background-image: url("play.3e065c7c.svg");
   background-repeat: no-repeat;
   top: 0;
   left: 0;
@@ -1585,7 +1585,7 @@ h3[data-v-383e37] {
   width: 100% !important;
 }
 .overlay-read-content[data-v-383e37]:after {
-  background-image: url("/read.457a31d8.svg");
+  background-image: url("read.457a31d8.svg");
   background-repeat: no-repeat;
   top: 0;
   left: 0;
