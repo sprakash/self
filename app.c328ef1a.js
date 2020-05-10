@@ -56284,7 +56284,7 @@ var staticRenderFns = [
       _c("h1", [_c("span", [_vm._v("शुभ्रा प्रकाश")])])
     ])
   },
-  function() {
+    function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
@@ -56305,7 +56305,7 @@ var staticRenderFns = [
               [
                 _c("img", {
                   staticClass: "foxlogo",
-                  attrs: { src: "rflogo.f8a67f48.png" }
+                  attrs: { src: "/rflogo.f8a67f48.png" }
                 })
               ]
             ),
@@ -56334,6 +56334,8 @@ var staticRenderFns = [
           _c("div", { staticClass: "films-look" }, [
             _c("h2", [_vm._v("Actor & Co-Producer")]),
             _vm._v(" "),
+            _c("hr", { staticClass: "inner" }),
+            _vm._v(" "),
             _c("h3", [_vm._v("Vanilla")]),
             _vm._v(" "),
             _c(
@@ -56349,7 +56351,7 @@ var staticRenderFns = [
                 _c("div", { staticClass: "overlay-parent" }, [
                   _c("div", { staticClass: "overlay-content" }, [
                     _c("img", {
-                      attrs: { src: "vanilla.00c394b1.jpg" }
+                      attrs: { src: "/vanilla.00c394b1.jpg" }
                     })
                   ])
                 ])
@@ -56366,6 +56368,8 @@ var staticRenderFns = [
           _c("div", [
             _c("h2", [_vm._v("Director & Co-Producer")]),
             _vm._v(" "),
+            _c("hr", { staticClass: "inner" }),
+            _vm._v(" "),
             _c("h3", [_vm._v("Funny Faces")]),
             _vm._v(" "),
             _c(
@@ -56381,7 +56385,7 @@ var staticRenderFns = [
                 _c("div", { staticClass: "overlay-parent" }, [
                   _c("div", { staticClass: "overlay-content" }, [
                     _c("img", {
-                      attrs: { src: "funnyfaces.544a1b33.png" }
+                      attrs: { src: "/funnyfaces.544a1b33.png" }
                     })
                   ])
                 ])
@@ -56410,6 +56414,8 @@ var staticRenderFns = [
           _c("div", [
             _c("h2", [_vm._v("Writer, Director & Producer")]),
             _vm._v(" "),
+            _c("hr", { staticClass: "inner" }),
+            _vm._v(" "),
             _c("h3", [_vm._v("Three Dates")]),
             _vm._v(" "),
             _c(
@@ -56422,7 +56428,7 @@ var staticRenderFns = [
                 _c("div", { staticClass: "overlay-parent" }, [
                   _c("div", { staticClass: "overlay-content" }, [
                     _c("img", {
-                      attrs: { src: "gotchai.692cc71e.png" }
+                      attrs: { src: "/gotchai.692cc71e.png" }
                     })
                   ])
                 ])
@@ -56448,6 +56454,8 @@ var staticRenderFns = [
             _c("div", [
               _c("h3", [_vm._v("Priya's Mirror")]),
               _vm._v(" "),
+              _c("hr", { staticClass: "inner" }),
+              _vm._v(" "),
               _c("h4", [_vm._v("augmented reality comic book")]),
               _vm._v(" "),
               _c(
@@ -56461,7 +56469,7 @@ var staticRenderFns = [
                 },
                 [
                   _c("img", {
-                    attrs: { src: "priyasmirror.2119e84a.png" }
+                    attrs: { src: "/priyasmirror.2119e84a.png" }
                   })
                 ]
               ),
@@ -56476,6 +56484,8 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("div", [
               _c("h3", [_vm._v("Karma Killings")]),
+              _vm._v(" "),
+              _c("hr", { staticClass: "inner" }),
               _vm._v(" "),
               _c("h4", [_vm._v("netflix / amazon video / itunes")]),
               _vm._v(" "),
@@ -56493,7 +56503,7 @@ var staticRenderFns = [
                   _c("div", { staticClass: "overlay-parent" }, [
                     _c("div", { staticClass: "overlay-content" }, [
                       _c("img", {
-                        attrs: { src: "karmak.bebe07d1.jpeg" }
+                        attrs: { src: "/karmak.bebe07d1.jpeg" }
                       })
                     ])
                   ])
@@ -56510,6 +56520,8 @@ var staticRenderFns = [
             _c("div", [
               _c("h3", [_vm._v("Theater and Sex Work")]),
               _vm._v(" "),
+              _c("hr", { staticClass: "inner" }),
+              _vm._v(" "),
               _c("h4", [_vm._v("short documentary")]),
               _vm._v(" "),
               _c(
@@ -56525,7 +56537,7 @@ var staticRenderFns = [
                   _c("div", { staticClass: "overlay-parent" }, [
                     _c("div", { staticClass: "overlay-content" }, [
                       _c("img", {
-                        attrs: { src: "vamp.c1fb0973.png" }
+                        attrs: { src: "/vamp.c1fb0973.png" }
                       })
                     ])
                   ])
