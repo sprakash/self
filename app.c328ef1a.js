@@ -54242,7 +54242,7 @@ var staticRenderFns = [
                 target: "_blank"
               }
             },
-            [_vm._v("click here to read more")]
+            [_vm._v(" click here to read more")]
           )
         ]),
         _vm._v(" "),
