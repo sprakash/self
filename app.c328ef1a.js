@@ -54232,17 +54232,17 @@ var staticRenderFns = [
         _c("h1", [_vm._v("LATEST NEWS : ")]),
         _vm._v(" "),
         _c("span", [
-          _vm._v("Shakespeare Replayed: Tyranny released on Amazon Prime, "),
+          _vm._v("PRIYA'S MASK : comic book and short film on NPR and BBC ! (DEC 2020)"),
           _c(
             "a",
             {
               attrs: {
                 href:
-                  "https://www.amazon.com/Shakespeare-Replayed-Tyranny-Shubhra-Prakash/dp/B01H1IEVMG",
+                  "https://www.priyashakti.com/priyas-mask",
                 target: "_blank"
               }
             },
-            [_vm._v("click here to watch my performance")]
+            [_vm._v("click here to read more")]
           )
         ]),
         _vm._v(" "),
