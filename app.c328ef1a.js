@@ -54238,7 +54238,7 @@ var staticRenderFns = [
             {
               attrs: {
                 href:
-                  "https://www.priyashakti.com/priyas-mask",
+                  "https://sprakash.github.io/portfolio/priyashakti.html",
                 target: "_blank"
               }
             },
