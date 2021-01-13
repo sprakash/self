@@ -54832,7 +54832,7 @@ var staticRenderFns = [
             },
             [
               _c("img", {
-                attrs: { src: "priyashakti.95c97309.jpg" }
+                attrs: { src: "PriyasMask.ab432736.jpg" }
               })
             ]
           ),
