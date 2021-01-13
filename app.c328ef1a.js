@@ -53931,82 +53931,83 @@ exports.default = _default;
         $92828a = $92828a.options;
       }
     
-        /* template */
-        Object.assign($92828a, (function () {
-          var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div", { attrs: { id: "panels" } }, [
+ /* template */
+ Object.assign($92828a, (function () {
+  var render = function() {
+var _vm = this
+var _h = _vm.$createElement
+var _c = _vm._self._c || _h
+return _c("div", { attrs: { id: "panels" } }, [
+_c(
+"div",
+{ staticClass: "panel-area" },
+_vm._l(_vm.panels, function(singlePanel, index) {
+return _c(
+  "div",
+  {
+    staticClass: "single-panel",
+    style: {
+      zIndex: _vm.currentOrder[index].zIndex,
+      minHeight: _vm.newHeights
+    },
+    attrs: { id: singlePanel.id }
+  },
+  [
+    _c("p", { staticClass: "sectiontitle" }, [
+      _vm._v(_vm._s(singlePanel.title))
+    ]),
+    _vm._v(" "),
     _c(
       "div",
-      { staticClass: "panel-area" },
-      _vm._l(_vm.panels, function(singlePanel, index) {
-        return _c(
-          "div",
-          {
-            staticClass: "single-panel",
-            style: {
-              zIndex: _vm.currentOrder[index].zIndex,
-              minHeight: _vm.newHeights
-            },
-            attrs: { id: singlePanel.id }
-          },
-          [
-            _c(
-              "div",
-              { staticClass: "panel-content" },
-              [
-                _c("h1", { staticClass: "panel-header" }, [
-                  _vm._v(_vm._s(singlePanel.title))
-                ]),
-                _vm._v(
-                  "\n\t\t\t\t\t\t\t" +
-                    _vm._s(singlePanel.content) +
-                    "\n\t\t\t\n\t\t\t\t\t\t\t"
-                ),
-                _c(
-                  "router-link",
-                  { attrs: { to: { name: singlePanel.title } } },
-                  [_vm._v(" More »")]
-                )
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c("div", { staticClass: "button-areas" }, [
-              _c(
-                "div",
-                {
-                  staticClass: "prev",
-                  on: {
-                    click: function($event) {
-                      return _vm.previousPanel(singlePanel.title)
-                    }
-                  }
-                },
-                [_vm._v("❮")]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "next",
-                  on: {
-                    click: function($event) {
-                      return _vm.nextPanel(singlePanel.title)
-                    }
-                  }
-                },
-                [_vm._v("❯")]
-              )
-            ])
-          ]
+      { staticClass: "panel-content" },
+      [
+        _vm._v(
+          "\n\t\t\t\t\t\t\t" +
+            _vm._s(singlePanel.content) +
+            "\n\t\t\t\n\t\t\t\t\t\t\t"
+        ),
+        _c(
+          "router-link",
+          { attrs: { to: { name: singlePanel.title } } },
+          [_vm._v(" More »")]
         )
-      }),
-      0
-    )
-  ])
+      ],
+      1
+    ),
+    _vm._v(" "),
+    _c("div", { staticClass: "button-areas" }, [
+      _c(
+        "div",
+        {
+          staticClass: "prev",
+          on: {
+            click: function($event) {
+              return _vm.previousPanel(singlePanel.title)
+            }
+          }
+        },
+        [_vm._v("❮")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "next",
+          on: {
+            click: function($event) {
+              return _vm.nextPanel(singlePanel.title)
+            }
+          }
+        },
+        [_vm._v("❯")]
+      )
+    ])
+  ]
+)
+}),
+0
+)
+])
 }
 var staticRenderFns = []
 render._withStripped = true
