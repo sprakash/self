@@ -813,6 +813,15 @@ header {
     flex-direction: column-reverse;
   }
 }
+@media only screen and (max-width: 595px) {
+  .sidebar img {
+    width: 100%;
+    height: 1150px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+  }
+}
 #app[data-v-aa3048] {
   width: 100%;
 }
