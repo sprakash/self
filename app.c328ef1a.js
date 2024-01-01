@@ -91324,7 +91324,8 @@ let all = factory().extend({
                                                           onclick:
                                                             "window.location.href =" +
                                                             entry.bloglink.replace(
-                                                              " " / g,
+                                                              "https://shubhra.site/self" /
+                                                                g,
                                                               "/"
                                                             ) +
                                                             "; return false;",
