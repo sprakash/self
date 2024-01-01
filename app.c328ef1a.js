@@ -91323,7 +91323,10 @@ let all = factory().extend({
                                                           target: "_blank",
                                                           onclick:
                                                             "window.location.href =" +
-                                                            entry.bloglink +
+                                                            entry.bloglink.replace(
+                                                              /https: /g,
+                                                              "https:"
+                                                            ) +
                                                             "; return false;",
                                                         },
                                                       },
