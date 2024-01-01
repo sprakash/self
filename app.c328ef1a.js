@@ -91319,15 +91319,8 @@ let all = factory().extend({
                                                       "a",
                                                       {
                                                         attrs: {
-                                                          href: "#",
+                                                          href: entry.bloglink,
                                                           target: "_blank",
-                                                          onclick:
-                                                            "window.location.href =" +
-                                                            entry.bloglink.replace(
-                                                              /https: /g,
-                                                              "https:"
-                                                            ) +
-                                                            "; return false;",
                                                         },
                                                       },
                                                       [_vm._v("More info")]
