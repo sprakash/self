@@ -1,3 +1,32 @@
+#tc-event {
+  padding: 1em;
+  background-color: white;
+}
+#tc-event button {
+  font-weight: bold;
+  font-size: 1em;
+  border: 1px solid black;
+  background: lightgray;
+  padding: 0.5em;
+  margin: 0;
+  float: right;
+  cursor: pointer;
+}
+#tc-event h2 {
+  margin: 0;
+  padding: 0;
+}
+#tc-event p {
+  text-align: center;
+}
+#tc-event a {
+  text-decoration: none;
+  color: cadetblue;
+}
+#tc-event img {
+  width: 100%;
+  display: inline-block;
+}
 #navigation {
   width: 80%;
   margin: 0.5em 0;
