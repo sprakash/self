@@ -1,3 +1,11 @@
+#home-flash {
+  position: absolute;
+  top: 18%;
+  z-index: 999;
+  width: 50%;
+  left: 26%;
+}
+
 #tc-event {
   padding: 1em;
   background-color: white;
